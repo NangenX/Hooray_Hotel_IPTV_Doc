@@ -17,7 +17,7 @@ By using this manual, you will gain a comprehensive understanding of the feature
 
  Prepare a laptop or computer, the laptop or computer can access the IPTV platform web page, the web page address is `http://{server ip}:{8080}`, when the laptop or desktop correctly accessed to see the login page.
 
-![Login Page](_images/1.png)
+![Login Page](_images/quickstart/1.png)
 
 !> :warning: **Warning: If you enter the address can not be accessed troubleshooting as follows:**
 
