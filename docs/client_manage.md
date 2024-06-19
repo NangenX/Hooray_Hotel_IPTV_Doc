@@ -2,41 +2,43 @@
 
 >Introduction
 
-The `Client menu` allows administrators to create, modify, and delete `Client Type`, create and control the client account in `Client Manage`, and check the client operate status in `Client Status`
+![Client Menu](_images/client/client_1.png)
 
-## Client Type
+In `Client Menu`, the administrator needs to configure the corresponding equipment information in `Room Category`, `Client Information` and `Client Status` and operate the check-in and check-out of visitors.
 
->Introduction
-
-![Client Type](_images/14.png)
-
-In `Client Type`, the Client Type is created in order to differentiate between different client categories and facilitate subsequent operation management. For example, OTA upgrade, scrolling subtitle sending, advertisement distribution, etc.
-
-Press `Add` button to create the `Client Type`
-
-![Client Type Add](_images/14-2.png)
-
-1. <font color="red">**Client Type Name**</font>: In `Client Type Name`, the name used to distinguish between different subgroups.
-
-2. <font color="red">**Description**</font>: In `Description`, used to describe the different client types.
-
-## Client Manage
+## Room Category
 
 >Introduction
 
-![Client Manage](_images/15.png)
+![Room Category](_images/client/client_2.png)
 
-`Client Manage`is the core page for managing subscribers, which is responsible for creating, editing and deleting subscriber accounts, opening and closing subscriber account status, viewing, purchasing and canceling subscriber packages, deleting and binding subscriber login device information, and a series of other operations.
+In `Room Category`, the administrator needs to set the logical classification name, in Hooray hotel IPTV logical classification named for distinguishing equipment belonging to different floors or different usage, for example, there are more than one piece of equipment placed on the 1st floor, then set the classification name for L1, and so on.
 
-### Statistical information
+Press `Add` button to create the `Room Category`
 
-<font color="red">**Today New Client**</font> `Today New Client` counts the number of subscribers registered for the day.
+![Room Category - Add](_images/client/client_3.png)
 
-<font color="red">**Total Client**</font> `Total Client` counts all registered subscribers in the system.
+1. <font color="red">**Group Name**</font>: In `Group Name`, the administrator sets the logical category name.
 
-<font color="red">**Active Account**</font> `Active Account` counts all subscribers in the system who have purchased a package.
+## Client Information
 
-<font color="red">**Expired Account**</font> `Expired Account` counts all subscribers in the system who have not purchased a package or whose package has expired.
+>Introduction
+
+![Client Information](_images/client/client_4.png)
+
+In `Client information`, this page displays all the current online and offline devices, the administrator can manage the device name and WIFI hotspot status (abandoned) through this page, and in the device list, you can view the classification to which the device belongs, the corresponding room number and other device information and so on.
+
+Press `Add` button to create the `Client Information`
+
+<font color="red">**MAC Address**</font> `Today New Client` counts the number of subscribers registered for the day.
+
+<font color="red">**Room Name**</font> `Total Client` counts all registered subscribers in the system.
+
+<font color="red">**Room Category**</font> `Active Account` counts all subscribers in the system who have purchased a package.
+
+<font color="red">**WiFi**</font> `Expired Account` counts all subscribers in the system who have not purchased a package or whose package has expired.
+
+
 
 ### Client Account Add
 
