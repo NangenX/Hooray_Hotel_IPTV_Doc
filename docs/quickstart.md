@@ -1,20 +1,17 @@
 # Quick start
 
- This online document provides an overview of Hooray IPTV platform operations. It covers topics such as:
+ This online document provides an overview of Hooray hotel IPTV platform operations. It covers topics such as:
 
-1. Live & Video On Demand Setting
-2. Subscriber Packages Setting
-3. Analysis Section
-4. Client Management Setting
-5. Ads Settings
-6. Push Message Setting
-7. Easy Online Shopping Setting
-8. Authority Setting
-9. System Basic Settings
+1. Client Setting
+2. Live & VOD Setting
+3. Ads Settings
+4. Custom Setting
+5. Authority Setting
+6. System Basic Settings
 
-This manual will provide administrators with instructions on how to operate these sections of the IPTV platform. Each setcion has different settings and functionalities:
+This manual will provide administrators with instructions on how to operate these sections of the Hotel IPTV platform. Each setcion has different settings and functionalities:
 
-By using this manual, you will gain a comprehensive understanding of the features and operations of the Hooray IPTV Service Platform, enabling you to better manage and work your IPTV service.
+By using this manual, you will gain a comprehensive understanding of the features and operations of the Hooray Hotel IPTV Service Platform, enabling you to better manage and work your Hotel IPTV service.
 
 ## Initialize
 
@@ -25,4 +22,4 @@ By using this manual, you will gain a comprehensive understanding of the feature
 !> :warning: **Warning: If you enter the address can not be accessed troubleshooting as follows:**
 
 1. <font color="red"> Make sure the network cable is correctly linked </font>
-2. <font color="red"> Make sure the laptop or desktop can ping the IPTV platform IP </font>
+2. <font color="red"> Make sure the laptop or desktop can ping the Hotel IPTV Server IP </font>
