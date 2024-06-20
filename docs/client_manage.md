@@ -30,13 +30,17 @@ In `Client information`, this page displays all the current online and offline d
 
 Press `Add` button to create the `Client Information`
 
-<font color="red">**MAC Address**</font> `Today New Client` counts the number of subscribers registered for the day.
+![Client Information - Add](_images/client/client_5.png ':size=40%') ![Client Information - Edit](_images/client/client_6.png ':size=40%')
 
-<font color="red">**Room Name**</font> `Total Client` counts all registered subscribers in the system.
+<font color="red">**MAC Address**</font> In `Mac Address`, if the device is not in Client Information, then it can be added manually by entering the MAC address, and if the device has been discovered by the hotel IPTV server, the MAC can only be viewed.
 
-<font color="red">**Room Category**</font> `Active Account` counts all subscribers in the system who have purchased a package.
+<font color="red">**IP**</font> In `IP`, displays information about the IP address of the last time the device was online.
 
-<font color="red">**WiFi**</font> `Expired Account` counts all subscribers in the system who have not purchased a package or whose package has expired.
+<font color="red">**Room Name**</font> In `Room Name`, enter the name of the room to which the device belongs.
+
+<font color="red">**Room Category**</font> In `Room Category`, select the room category to which the device belongs.
+
+<font color="red">**WiFi**</font> In `WIFI`, the administrator can ON and OFF the device hotspot function, and can set the hotspot function WIFI name and password. Due to Google's protection for Android this feature can no longer be enabled.
 
 
 
