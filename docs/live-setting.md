@@ -2,17 +2,17 @@
 
 >Introduction
 
-![Program Menu](_images/2.png)
+![Program Menu](_images/program/program_1.png)
 
-The program menu allows administrators to create, modify, and delete `Live Category` and `Live Program` settings.
+The program menu allows administrators to create, modify, and delete `Live` and `VOD` settings.
 
-## Live Category
+## Live Packages
 
 >Introduction
 
-![Live Category List](_images/3.png)
+![Live Package List](_images/3.png)
 
-In the Live Category feature, administrators can create, modify, and delete categories for live channel sources. By creating Live categories, administrators can better organize and associate the corresponding live channel sources with the respective categories. This allows subscribers to conveniently search and categorize the live channels they want to watch.
+In the Live Package feature, administrators can create, modify, and delete categories for live channel sources. By creating Live categories, administrators can better organize and associate the corresponding live channel sources with the respective categories. This allows subscribers to conveniently search and categorize the live channels they want to watch.
 
 Administrators can create new live categories by clicking on the `Add` button. Each channel category needs to be associated with a corresponding live channel source; each channel category can upload poster to specify their different.
 
