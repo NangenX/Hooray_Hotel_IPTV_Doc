@@ -26,7 +26,7 @@ Press `Add` button to create the `Room Category`
 
 ![Client Information](_images/client/client_4.png)
 
-In `Client information`, this page displays all the current online and offline devices, the administrator can manage the device name and WIFI hotspot status (abandoned) through this page, and in the device list, you can view the classification to which the device belongs, the corresponding room number and other device information and so on.
+In `Client information`, this page displays all the current online and offline devices, the administrator can manage the device name and `WIFI hotspot status` (abandoned) through this page, and in the device list, you can view the classification to which the device belongs, the corresponding room number and other device information and so on.
 
 Press `Add` button to create the `Client Information`
 
@@ -43,89 +43,28 @@ Press `Add` button to create the `Client Information`
 <font color="red">**WiFi**</font> In `WIFI`, the administrator can ON and OFF the device hotspot function, and can set the hotspot function WIFI name and password. Due to Google's protection for Android this feature can no longer be enabled.
 
 
-
-### Client Account Add
-
-Press `Add` button to create new client account from web.
-
-![Client Manage-Add](_images/15-1.png)
-
-1. <font color="red">**Client Name**</font>:  when the administrator creates a subscriber account, the `Client Name` is the login account.
-
-2. <font color="red">**Password**</font>: The `Password` is used to login the IPTV service.
-
-3. <font color="red">**Mobile Number**</font>: The `Mobile Number` is  used to identify the cell phone number bound to the current account
-
-4. <font color="red">**User ID**</font>: The `User ID` number is used to identify the identity information bound to the current account
-
-5. <font color="red">**Home Address**</font>: The `Home Address` is used to identify the home address to which the current account is bound
-
-6. <font color="red">**Client Types**</font>: The `Client Type` is used to identify the category to which the current account belongs
-
-7. <font color="red">**Numbers of Terminal**</font>: The `Number of Terminals` is used to identify the maximum number of online devices supported by the current account. If the number of online devices in the account exceeds the number of terminals, the account will be randomly selected and forced to take down the devices that are already online.
-
-### Client Account Edit
-
-![Client Manage-Edit](_images/icon/icon-5.png)
-
-Press `Edit` button to edit the selected account from client list, in `Edit` page, administrator can edit all the client information include the `login password` and `numbers of terminal`
-
-![Client Manage-Edit Client](_images/15-5.png)
-
-
-### Client Account Delete
-
-![Client Manage-Delete](_images/icon/icon-6.png)
-
-Clicking on the `Delete` button will delete the client account.
-
-!> :warning: **Warning: Accounts cannot be retrieved after deletion.**
-
-
-
-### Client Account Status
-
-![Client Manage-Status](_images/icon/icon-1.png)
-
-Press `Stop` or `Start` icon to control the client account status, which will 
-
-
-### Buying Package for Client
-
-![Client Manage-Buying Package](_images/icon/icon-2.png)
-
-The administrator performs package authorization operations for subscribers by clicking on this icon.
-
-![Client Manage-Buying Package](_images/15-2.png)
-
-1. <font color="red">**Buying package**</font>: Scroll down to select the package that needs to be authorized for the current customer, select it and click the Submit button to submit it.
-
-### Purchase History
-
-![Client Manage-Purchase History](_images/icon/icon-3.png)
-
-
-Click on the `Purchase Hisotry` button to enter the page to view and delete the subscriber's package purchase history.
-
-![Client Manage-Purchase History](_images/15-3.png)
-
-### Login Information
-
-![Client Manage-Purchase History](_images/icon/icon-4.png)
-
-Click the `Login Information` button to enter the page to view the user's login device information record. 管理员可以
-
-![Client Manage-Purchase History](_images/15-4.png)
-
-In this page, the administrator can view the online and offline status of the device and delete the corresponding login device information.
-
-## Online Status
+## Client Status
 
 >Introduction
 
-![Online Status](_images/15-6.png)
+![Client Status](_images/client/client_7.png)
 
-![Online Status-Detail](_images/15-7.png)
+In the Client Status page, the administrator can operate the check-in and check-out of the corresponding equipment, and the unchecked-in equipment can view the information of the previously checked-in customers and their consumption records. The checked-in devices can operate online orders, consumption records, edit guest information, view previous check-in records and check-out operations.
 
-Administrators can view the current online account status and the number of device logins in `Online Status`, and click the corresponding account to view the operation records and online hours of each device under the account.
+![Client Status Check-In Status](_images/client/client_8.png)
+
+<font color="red">**Request**</font> Click the `request` button, will jump to the guest's current booking operation page, in the page, administrator can view the guest's booking of the room, the administrator through the operation button to confirm the order or delete the order. After the corresponding operation, the result will be returned to the guest and presented status of the hotel app.
+
+<font color="red">**Consume**</font> Click `Consume` button will redirect you to the guest's current consumption record page, which displays the current guest's completed order from app.
+
+<font color="red">**Edit**</font> Click `Edit` button, the administrator can reset the name of the check-in guest and the welcome message.
+
+<font color="red">**Records**</font> Click `Record` button, administrator can view the device check-in record, including the name of the occupant, check-in time, check-out time and consumption record.
+
+<font color="red">**Check-Out**</font> After clicking the `Check-Out` button, the device automatically enters the Check-Out state, in which all services are unavailable.
+
+![Client Status Check-In Status](_images/client/client_9.png)
+
+<font color="red">**Check-In**</font> Click the `Check-In` button, the administrator needs to fill in the name of the check-in customer and the welcome message displayed on the big screen.
+
 
