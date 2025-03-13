@@ -1,13 +1,17 @@
 # Quick start
 
- This online document provides an overview of Hooray hotel IPTV platform operations. It covers topics such as:
+ This online document provides an overview of Hooray Hotel IPTV platform operations. It covers topics such as:
 
 1. Client Setting
 2. Live & VOD Setting
 3. Ads Settings
-4. Custom Setting
-5. Authority Setting
-6. System Basic Settings
+4. Hotel Service Setting
+5. Custom Setting
+6. Flight Info Setting
+7. Weather Info Setting
+8. Facilities Setting
+9. Authority Setting
+10. System Basic Settings
 
 This manual will provide administrators with instructions on how to operate these sections of the Hotel IPTV platform. Each setcion has different settings and functionalities:
 

@@ -2,7 +2,7 @@
 
 >Introduction
 
-![Authority](_images/19.png) 
+![Authority](_images/authority/authority_1.png) 
 
 In `Authority`, the Super Administrator needs to create corresponding accounts and assign administrative roles to the administrators logging into the IPTV system.
 
@@ -14,11 +14,11 @@ In `Manager Role`, system administrators can view the list of created manager ro
 
 !> :warning: **Warning: system administrator role cannot be deleted**
 
-![Authority - Manager Role](_images/19-1.png) 
+![Authority - Manager Role](_images/authority/authority_2.png) 
 
 Press `Add` button to create the manager role
 
-![Authority - Manager Role-Add1 ](_images/19-2.png ':size=40%') ![Authority - Manager Role-Add2 ](_images/19-3.png ':size=40%')
+![Authority - Manager Role-Add1 ](_images/authority/authority_3.png) 
 
 <font color="red">**Role Name**</font>: In `Role Name`, the administrator sets the administrative role name, which is used to distinguish between different administrative roles.
 
@@ -34,11 +34,11 @@ Press `Add` button to create the manager role
 
 In `Manger`, system administrators or administrators with Authority Setting privileges can manage administrator accounts. In the list of administrator accounts, you can view the created administrator accounts, and you can add, edit and delete the corresponding administrator accounts.
 
-![Authority - Manager](_images/19-4.png)
+![Authority - Manager](_images/authority/authority_4.png) 
 
 Press `Add` button to create the manager account
 
-![Authority - Manager](_images/19-5.png)
+![Authority - Manager](_images/authority/authority_5.png) 
 
 <font color="red">**Manager Name**</font>: In `Manager Name`, the administrator sets the administrative account name, which is used to distinguish between different administrative account.
 
