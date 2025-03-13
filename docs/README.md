@@ -1,6 +1,6 @@
 # Hooray IPTV Online Document
 
-> This document base on Hooray hotel IPTV platform version 1.0.7. 
+> This document base on Hooray Hotel IPTV platform version 1.1.0_Release_Date_2025-03-10. 
 
 ## What can this document do?
 
