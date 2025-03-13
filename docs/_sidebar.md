@@ -15,9 +15,26 @@
 
   - [Ads Setting](ads_setting.md)
 
+- Hotel Service Setting
+
+  - [Hotel Service Setting](hotel_service.md)
+  - [Food Service Setting](food_service.md)
+
 - Custom Setting
 
   - [Custom Setting](custom.md)
+
+- Flight Info Setting
+
+  - [Flight Setting](flight.md)
+
+- Weather Info Setting
+
+  - [Weather Setting](weather.md)
+
+- Facilities Setting
+
+  - [Facilities Setting](facilities.md)  
 
 - Authority Setting
 
