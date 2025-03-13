@@ -1,6 +1,8 @@
 # Hooray IPTV Online Document
 
-> This document base on Hooray Hotel IPTV platform version 1.1.0_Release_Date_2025-03-10. 
+> <span style="font-family: Arial;"> This document base on Hooray Hotel IPTV platform version 1.1.0_Release_Date_2025-03-10. </span>
+
+
 
 ## What can this document do?
 
