@@ -2,7 +2,7 @@
 
 >Introduction
 
-![Custom Setting](_images/custom/custom_1.png)
+![Facilities Setting](_images/facilities/facilities_1.png)
 
 In `Custom Menu`, administrators control whether to display the welcome message on the home page, as well as the configuration of online meal ordering and the setting of information on surrounding scenic spots.
 
