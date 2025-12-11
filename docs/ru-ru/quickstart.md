@@ -1,29 +1,27 @@
-# Quick start
+# Быстрый старт
 
- This online document provides an overview of Hooray Hotel IPTV platform operations. It covers topics such as:
+Этот онлайн-документ описывает работу платформы Hooray Hotel IPTV и охватывает разделы:
 
-1. Client Setting
-2. Live & VOD Setting
-3. Ads Settings
-4. Hotel Service Setting
-5. Custom Setting
-6. Flight Info Setting
-7. Weather Info Setting
-8. Facilities Setting
-9. Authority Setting
-10. System Basic Settings
+1. Настройка клиентов  
+2. Live и VOD  
+3. Реклама  
+4. Сервис отеля  
+5. Кастомизация  
+6. Информация о рейсах  
+7. Погода  
+8. Инфраструктура  
+9. Права доступа  
+10. Базовые системные настройки  
 
-This manual will provide administrators with instructions on how to operate these sections of the Hotel IPTV platform. Each setcion has different settings and functionalities:
+Руководство помогает администраторам настраивать эти разделы и понимать их возможности. Используя его, вы получите целостное представление о функциях и работе платформы, что позволит эффективнее управлять IPTV-сервисом.
 
-By using this manual, you will gain a comprehensive understanding of the features and operations of the Hooray Hotel IPTV Service Platform, enabling you to better manage and work your Hotel IPTV service.
+## Подготовка
 
-## Initialize
-
- Prepare a laptop or computer, the laptop or computer can access the IPTV platform web page, the web page address is `http://{server ip}:{8080}`, when the laptop or desktop correctly accessed to see the login page.
+1. Подготовьте ноутбук или ПК с доступом к веб-интерфейсу IPTV.  
+2. Откройте адрес: `http://{server ip}:{8080}`. При корректном доступе появится страница логина.
 
 ![Login Page](_images/quickstart/1.png)
 
-!> :warning: **Warning: If you enter the address can not be accessed troubleshooting as follows:**
-
-1. <font color="red"> Make sure the network cable is correctly linked </font>
-2. <font color="red"> Make sure the laptop or desktop can ping the Hotel IPTV Server IP </font>
+> :warning: Если страница недоступна, проверьте:  
+> 1) <font color="red">Кабель сети подключён корректно.</font>  
+> 2) <font color="red">Ноутбук/ПК успешно пингует IP IPTV-сервера.</font>
