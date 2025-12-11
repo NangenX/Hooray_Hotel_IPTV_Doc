@@ -1,23 +1,23 @@
-# Weather Setting
+# Настройка погоды
 
-> Introduction
+> Введение
 
 ![Weather Setting](_images/weather/weather_1.png)
 
-In `Weather Menu`, administrators can add, delete, and modify the names of destination cities. The IPTV system will automatically obtain the weather information for the next seven days of these cities through a third - party interface based on the city names, and then forward this information to terminal devices through interface messages. The terminal devices will display the information on a large screen.
+В `Weather Menu` можно добавлять/удалять/редактировать города назначения. IPTV получает прогноз на 7 дней через сторонний интерфейс и отправляет на терминалы.
 
 ![Weather Setting](_images/weather/weather_2.png)
 
-Press `Add` button to create the new airport information
+Нажмите `Add`, чтобы добавить город.
 
 ![Weather Setting](_images/weather/weather_3.png)
 
-<font color="red">**ID**</font>: The ID number is the identification number. The smaller the identification number, the higher its position in the list. It should be noted that the identification number must be unique.
+<font color="red">**ID**</font>: уникальный порядковый номер; меньший ID — выше в списке.
 
-<font color="red">**Country**</font>: `Country` represents the country where the city is located.
+<font color="red">**Country**</font>: страна.
 
-<font color="red">**City**</font>: Select the `city` from the dropdown menu. This city is the destination city for which you need to query the weather.
+<font color="red">**City**</font>: выберите город назначения из списка.
 
-> Terminal Screen
+> Экран терминала
 
 ![Weather Setting](_images/weather/weather_4.png)
