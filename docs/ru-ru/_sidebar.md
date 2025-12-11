@@ -4,38 +4,38 @@
 
 - Управление клиентами
 
-  - [Клиенты](client_manage.md)
+  - [Клиенты](/ru-ru/client_manage.md)
 
 - Live и VOD
 
-  - [Настройки Live](live-setting.md)
-  - [Настройки VOD](vod_setting.md)
+  - [Настройки Live](/ru-ru/live-setting.md)
+  - [Настройки VOD](/ru-ru/vod_setting.md)
 
 - Реклама
 
-  - [Реклама](ads_setting.md)
+  - [Реклама](/ru-ru/ads_setting.md)
 
 - Кастомизация
 
-  - [Кастомные настройки](custom.md)
+  - [Кастомные настройки](/ru-ru/custom.md)
 
 - Информация о рейсах
 
-  - [Рейсы](flight.md)
+  - [Рейсы](/ru-ru/flight.md)
 
 - Погода
 
-  - [Погода](weather.md)
+  - [Погода](/ru-ru/weather.md)
 
 - Инфраструктура
 
-  - [Инфраструктура](facilities.md)
+  - [Инфраструктура](/ru-ru/facilities.md)
 
 - Права доступа
 
-  - [Права доступа](authority.md)
+  - [Права доступа](/ru-ru/authority.md)
 
 - Базовые системные настройки
 
-  - [Системные настройки](system.md)
+  - [Системные настройки](/ru-ru/system.md)
 

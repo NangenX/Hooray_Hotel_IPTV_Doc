@@ -1,38 +1,38 @@
-# Hooray IPTV Online Documentation
+# Онлайн-документация Hooray IPTV
 
-> Based on Hooray Hotel IPTV Platform v1.1.0_Release_Date_2025-03-10.
+> Версия платформы: Hooray Hotel IPTV v1.1.0_Release_Date_2025-03-10
 
-## Overview
-This site documents how to configure and operate the Hooray Hotel IPTV management platform. It covers client/device setup, live/VOD configuration, ads and hotel services, system basics, and related integrations.
+## Обзор
+На сайте описана настройка и эксплуатация платформы управления Hooray Hotel IPTV: клиенты/устройства, Live/VOD, реклама и сервисы отеля, базовые системные параметры и связанные интеграции.
 
-## Quick Local Preview
-- Prerequisite: Node.js 16+ installed
-- Install docsify CLI (once): `npm i -g docsify-cli`
-- Start local preview: `docsify serve docs`
-- Open in browser: `http://localhost:3000`
+## Быстрый локальный просмотр
+- Требуется Node.js 16+
+- Установка docsify CLI (однократно): `npm i -g docsify-cli`
+- Запуск превью: `docsify serve docs`
+- Открыть в браузере: `http://localhost:3000`
 
-## Documentation Structure
-- `index.html` — Docsify entry and global config
-- `_coverpage.md` — Landing cover page
-- `_navbar.md` / `_sidebar.md` — Top navigation and sidebar
-- Feature guides — e.g. `quickstart.md`, `client_manage.md`, `live-setting.md`, `vod_setting.md`, `ads_setting.md`, `custom.md`, `flight.md`, `weather.md`, `facilities.md`, `authority.md`, `system.md`
-- Assets — `_images/` for screenshots, `_media/` for favicon and examples
-- `LICENSE` — License file
+## Структура документации
+- `index.html` — вход для Docsify и глобальная конфигурация
+- `_coverpage.md` — титульная страница
+- `_navbar.md` / `_sidebar.md` — верхнее меню и боковая навигация
+- Основные разделы: `ru_quickstart.md`, `client_manage.md`, `live-setting.md`, `vod_setting.md`, `ads_setting.md`, `custom.md`, `flight.md`, `weather.md`, `facilities.md`, `authority.md`, `system.md`
+- Ресурсы: `_images/` — скриншоты; `_media/` — favicon и примеры
+- `LICENSE` — лицензия
 
-## Editing Guidelines
-- Update the relevant `.md` file; save to see changes in local preview.
-- Adding a new page: create the `.md`, then add its link to `_sidebar.md` (and `_navbar.md` if needed).
-- Images: place under `_images/` and reference with relative paths.
-- Keep terminology consistent; include clear steps and up-to-date screenshots when behavior changes.
+## Правила редактирования
+- Правьте соответствующий `.md`; изменения видны сразу в локальном превью.
+- Новый раздел: создайте `.md` и добавьте ссылку в `_sidebar.md` (и `_navbar.md`, если нужно).
+- Картинки кладите в `_images/` и ссылайтесь относительными путями.
+- Соблюдайте терминологию; при изменении поведения обновляйте шаги и скриншоты.
 
-## Deployment (GitHub Pages)
-- Push to the default branch to publish via GitHub Pages.
-- If running in restricted/offline environments, consider bundling CDN dependencies (Docsify, Prism, Vue) locally to improve reliability.
+## Публикация (GitHub Pages)
+- Пуш в основную ветку — автоматическая публикация на GitHub Pages.
+- Для закрытых/офлайн-сред: можно локально хранить зависимости (Docsify, Prism, Vue) вместо внешних CDN.
 
-## Contributing
-- Issues: report bugs, gaps, or requests.
-- Pull Requests: welcome for typo fixes, new sections, and updated examples.
-- Please include a brief change description and, when possible, screenshots for UI-related updates.
+## Вклад
+- Issues: сообщайте об ошибках и недостающих материалах.
+- Pull Requests: приветствуются правки текста, новые разделы и обновлённые примеры.
+- Желательно кратко описывать изменения и, при UI-правках, прикладывать скриншоты.
 
-## Support
-For questions about the IPTV platform or documentation improvements, open an issue or contact the maintainers through the project channel.
+## Поддержка
+Вопросы по IPTV-платформе и предложения по документации — через issues или канал поддерживающей команды.
