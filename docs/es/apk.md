@@ -1,123 +1,23 @@
 # APK
 
-Gestione la aplicación cliente (APK) para dispositivos en la plataforma Hooray Hotel IPTV.
+>Introducción
 
-## Descarga de APK
+![APK Setting](_images/apk/apk_1.png)
 
-### Obtener APK
+En el menú `Setting` del APK, puede configurar la dirección de comunicación entre el dispositivo terminal y el servidor IPTV, así como otra información de configuración del APK.
 
-1. Vaya a **APK** → **Descargas**
-2. Seleccione versión:
-   - Última versión
-   - Versión anterior
-   - Beta
-3. Descargue archivo APK
-4. Verifique suma de comprobación
+## Network Setting
 
-### Versiones disponibles
+>Introducción
 
-- Versión estable
-- Versión beta
-- Versión de desarrollo
+En `Network Setting`, puede ver y configurar la dirección IP y el puerto del servidor IPTV, así como la dirección IP local y la dirección MAC de comunicación.
 
-## Instalación
+![Network Setting ](_images/apk/apk_2.png)
 
-### Instalación en dispositivos
+<font color="red">**Server IP**</font>: En `Server IP`, se pueden introducir tanto direcciones IP como nombres de dominio, y deben apuntar al servidor IPTV. Si la IP o el dominio introducidos no pueden acceder al servidor IPTV, será necesario reconfigurar el dispositivo para que pueda acceder a la IP o dominio del servidor IPTV y así establecer la comunicación de datos.
 
-1. Conecte dispositivo a red
-2. Descargue APK
-3. Ejecute instalación
-4. Configure credenciales iniciales
-5. Reinicie dispositivo
+<font color="red">**Server Port**</font>: En `Server Port`, sólo completando el número de puerto correcto se podrá establecer la comunicación con el servidor. El `Server Port` es el mismo número que aparece en la página web. Rellene ese número de puerto.
 
-### Instalación en masa
+<font color="red">**Local Network**</font>: `Local network` indica la dirección IP adquirida por el dispositivo actual, proporcionada por el sistema Android. Por favor confirme que esta dirección pueda comunicarse con la IP o dominio del servidor.
 
-1. Vaya a **Instalación en masa**
-2. Cargue lista de dispositivos
-3. Seleccione versión de APK
-4. Inicie proceso
-5. Monitoree progreso
-
-## Actualización
-
-### Actualizar dispositivos
-
-1. Vaya a **Actualización de APK**
-2. Seleccione dispositivos
-3. Elija versión de destino
-4. Configure horario
-5. Inicie actualización
-
-### Actualización automática
-
-- Habilitar/deshabilitar
-- Establecer horario preferido
-- Configurar notificaciones
-- Rollback automático
-
-## Versiones
-
-### Historial de versiones
-
-- Ver cambios de cada versión
-- Notas de lanzamiento
-- Bugs corregidos
-- Nuevas características
-
-### Compatibilidad
-
-- Verificar compatibilidad de hardware
-- Comprobar requisitos mínimos
-- Revisar dependencias
-- Validar certificados
-
-## Configuración
-
-### Parámetros de APK
-
-1. Vaya a **Configuración**
-2. Establezca:
-   - URL del servidor
-   - Configuración de proxy
-   - Configuración de red
-   - Parámetros de seguridad
-3. Guarde
-
-### Certificados
-
-- Gestionar certificados SSL
-- Configurar autenticación
-- Validar firmante de APK
-- Renovar certificados
-
-## Resolución de problemas
-
-### Problemas de instalación
-
-- Verificar compatibilidad
-- Comprobar espacio disponible
-- Revisar permisos
-- Validar suma de comprobación
-
-### Problemas de actualización
-
-- Verificar conectividad de red
-- Comprobar batería del dispositivo
-- Revisar registros de actualización
-- Realizar rollback si es necesario
-
-## Desinstalación
-
-### Remover APK
-
-1. Seleccione dispositivos
-2. Haga clic en **Desinstalar**
-3. Confirme acción
-4. Monitoree progreso
-
-## Reportes
-
-- Dispositivos con APK instalado
-- Versiones en uso
-- Nuevas instalaciones
-- Actualizaciones realizadas
+<font color="red">**Local MAC**</font>: `Local MAC` representa la información MAC obtenida por el dispositivo actual. Esta información MAC se almacenará en el sistema como credencial única. En el sistema de gestión, la información MAC se utilizará para gestionar el dispositivo correspondiente y asignar el número de habitación del hotel.
