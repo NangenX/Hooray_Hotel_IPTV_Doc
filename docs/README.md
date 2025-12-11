@@ -1,6 +1,6 @@
 # Hooray IPTV Online Document
 
-> <span style="font-family: Arial;"> This document base on Hooray Hotel IPTV platform version 1.1.0_Release_Date_2025-03-10. </span>
+> <span style="font-family: Arial;"> This document base on Hooray Hotel IPTV platform version 1.1.3_Release_Date_2025-03-10. </span>
 
 
 
