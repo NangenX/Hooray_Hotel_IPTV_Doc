@@ -1,50 +1,41 @@
-- Getting started
+- Старт
 
-  - [Quick start](quickstart.md)
+  - [Быстрый старт](quickstart.md)
 
-- Client Management Setting
+- Управление клиентами
 
-  - [Client Manage](client_manage.md)  
+  - [Клиенты](client_manage.md)
 
-- Live & Video On Demand Setting
+- Live и VOD
 
-  - [Live Setting](live-setting.md)
-  - [VOD Setting](vod_setting.md)
+  - [Настройки Live](live-setting.md)
+  - [Настройки VOD](vod_setting.md)
 
-- Ads Settings
+- Реклама
 
-  - [Ads Setting](ads_setting.md)
+  - [Реклама](ads_setting.md)
 
-- Hotel Service Setting
+- Кастомизация
 
-  - [Hotel Service Setting](hotel_service.md)
-  - [Food Service Setting](food_service.md)
+  - [Кастомные настройки](custom.md)
 
-- Custom Setting
+- Информация о рейсах
 
-  - [Custom Setting](custom.md)
+  - [Рейсы](flight.md)
 
-- Flight Info Setting
+- Погода
 
-  - [Flight Setting](flight.md)
+  - [Погода](weather.md)
 
-- Weather Info Setting
+- Инфраструктура
 
-  - [Weather Setting](weather.md)
+  - [Инфраструктура](facilities.md)
 
-- Facilities Setting
+- Права доступа
 
-  - [Facilities Setting](facilities.md)  
+  - [Права доступа](authority.md)
 
-- Authority Setting
+- Базовые системные настройки
 
-  - [Authority Setting](authority.md)
-
-- System Basic Settings
-
-  - [System Basic Settings](system.md)  
-
-- IPTV Application Setting
-
-  - [IPTV Application Setting](system.md)  
+  - [Системные настройки](system.md)
 
