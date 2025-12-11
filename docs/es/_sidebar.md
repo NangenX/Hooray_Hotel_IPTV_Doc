@@ -1,3 +1,4 @@
+
 - Inicio
 
   - [Guía de inicio rápido](/es/quickstart.md)
@@ -14,6 +15,11 @@
 - Publicidad
 
   - [Configuración de publicidad](/es/ads_setting.md)
+
+- Servicios del hotel
+
+  - [Servicios del hotel](/es/hotel_service.md)
+  - [Servicios de alimentos](/es/food_service.md)
 
 - Personalización
 
@@ -38,7 +44,7 @@
 - Configuración básica del sistema
 
   - [Configuración del sistema](/es/system.md)
-  - [Mensaje](/es/message.md)
-  - [Compras](/es/shopping.md)
-  - [Configuración de paquetes](/es/package_setting.md)
-  - [APK](/es/apk.md)
+
+- Aplicación IPTV
+
+  - [Configuración de la aplicación IPTV](/es/system.md)
