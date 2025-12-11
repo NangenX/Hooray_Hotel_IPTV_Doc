@@ -2,13 +2,13 @@
 
 > Введение
 
-![Login Page](_images/11.png)
+![Login Page](/_images/11.png)
 
 В Package Information создаются подписки для продажи: имя, цена, срок действия и привязка Live/VOD. Подписки можно редактировать и удалять.
 
 Нажмите `Add`, чтобы создать подписку.
 
-![Login Page](_images/11-2.png)
+![Login Page](/_images/11-2.png)
 
 1. <font color="red">**Package Name**</font>: отображаемое название пакета.
 

@@ -2,7 +2,7 @@
 
 > Введение
 
-![System](_images/setting/setting_1.png) 
+![System](/_images/setting/setting_1.png) 
 
 В `System` администратор изменяет общие параметры IPTV: импорт лицензии, бэкап БД, настройки безопасности внешних API.
 
@@ -10,7 +10,7 @@
 
 > Введение
 
-![Setting - Setting ](_images/setting/setting_2.png) 
+![Setting - Setting ](/_images/setting/setting_2.png) 
 
 В `Setting` задаются данные, синхронизируемые на терминалы: фоновая графика, формат времени и прочие параметры.
 
@@ -48,7 +48,7 @@
 
 > Введение
 
-![APK Version Management](_images/setting/setting_3.png) 
+![APK Version Management](/_images/setting/setting_3.png) 
 
 В APK Version Management настраиваются политики обновления (обязательные/необязательные) для разных терминалов.
 

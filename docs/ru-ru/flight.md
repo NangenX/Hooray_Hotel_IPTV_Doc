@@ -2,15 +2,15 @@
 
 > Введение
 
-![Flight Info Setting](_images/flight/flight_1.png)
+![Flight Info Setting](/_images/flight/flight_1.png)
 
 В `Flight Info Menu` администраторы добавляют/удаляют/правят аэропорты городов назначения. Система IPTV по этим данным получает прилёты/вылеты через сторонний интерфейс и отправляет информацию на терминалы.
 
-![Flight Info Setting](_images/flight/flight_2.png)
+![Flight Info Setting](/_images/flight/flight_2.png)
 
 Нажмите `Add`, чтобы добавить аэропорт.
 
-![Flight Info Setting](_images/flight/flight_3.png)
+![Flight Info Setting](/_images/flight/flight_3.png)
 
 <font color="red">**ID**</font>: порядковый номер, должен быть уникальным; меньший ID — выше в списке.
 
@@ -24,4 +24,4 @@
 
 > Экран терминала
 
-![Flight Info Setting](_images/flight/flight_4.png)
+![Flight Info Setting](/_images/flight/flight_4.png)

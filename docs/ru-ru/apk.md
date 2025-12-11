@@ -1,6 +1,6 @@
 > Введение
 
-![APK Setting](_images/apk/apk_1.png)
+![APK Setting](/_images/apk/apk_1.png)
 
 В меню `Setting` APK настраиваются адрес взаимодействия устройства с IPTV-сервером и прочие параметры приложения.
 
@@ -10,7 +10,7 @@
 
 В `Network Setting` отображаются и задаются IP/порт IPTV-сервера, а также локальный IP и MAC устройства.
 
-![Network Setting ](_images/apk/apk_2.png)
+![Network Setting ](/_images/apk/apk_2.png)
 
 <font color="red">**Server IP**</font>: можно указать IP или домен, обязательно ведущий на IPTV-сервер. Если доступа нет, нужно перепроверить/перенастроить, чтобы устройство могло связаться с сервером.
 

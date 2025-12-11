@@ -2,7 +2,7 @@
 
 > Введение
 
-![Authority](_images/authority/authority_1.png)
+![Authority](/_images/authority/authority_1.png)
 
 В разделе `Authority` суперадминистратор создаёт учётные записи и назначает административные роли для входа в систему IPTV.
 
@@ -14,11 +14,11 @@
 
 !> :warning: **Внимание: роль системного администратора нельзя удалить**
 
-![Authority - Manager Role](_images/authority/authority_2.png)
+![Authority - Manager Role](/_images/authority/authority_2.png)
 
 Нажмите `Add`, чтобы создать роль.
 
-![Authority - Manager Role-Add1 ](_images/authority/authority_3.png)
+![Authority - Manager Role-Add1 ](/_images/authority/authority_3.png)
 
 <font color="red">**Role Name**</font>: имя роли для различения администраторов.
 
@@ -34,11 +34,11 @@
 
 В `Manager` суперадминистратор или администратор с правами Authority может управлять учетными записями: просматривать, добавлять, редактировать и удалять.
 
-![Authority - Manager](_images/authority/authority_4.png)
+![Authority - Manager](/_images/authority/authority_4.png)
 
 Нажмите `Add`, чтобы создать учетную запись.
 
-![Authority - Manager](_images/authority/authority_5.png)
+![Authority - Manager](/_images/authority/authority_5.png)
 
 <font color="red">**Manager Name**</font>: имя учетной записи администратора.
 

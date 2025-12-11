@@ -2,7 +2,7 @@
 
 > Введение
 
-![Video On Demand Menu](_images/program/program_6.png)
+![Video On Demand Menu](/_images/program/program_6.png)
 
 Меню VOD позволяет создавать, изменять и удалять `VOD Category`, `VOD Program` и `VOD Upload`.
 
@@ -10,11 +10,11 @@
 
 > Введение
 
-![Video On Demand Menu](_images/program/program_7.png)
+![Video On Demand Menu](/_images/program/program_7.png)
 
 Здесь создаются/редактируются категории фильмов для удобного поиска. Нажмите `Add`, чтобы добавить категорию.
 
-![VOD Category Detail](_images/program/program_8.png)
+![VOD Category Detail](/_images/program/program_8.png)
 
 1. <font color="red">**ID**</font>: генерируется системой; можно править без конфликтов. Меньший ID — выше в списке.
 2. <font color="red">**Name**</font>: имя категории на приставке.
@@ -23,11 +23,11 @@
 
 > Введение
 
-![VOD Program](_images/program/program_9.png)
+![VOD Program](/_images/program/program_9.png)
 
 Здесь добавляют/редактируют/удаляют фильмы и привязывают файлы. Видны постер, данные и число запросов. Нажмите `Add`, чтобы добавить фильм.
 
-![VOD Program-add](_images/program/program_10.png)
+![VOD Program-add](/_images/program/program_10.png)
 
 1. <font color="red">**Poster**</font>: загрузите постер — отображается в списке.
 2. <font color="red">**Name**</font>: название фильма.
@@ -46,7 +46,7 @@
 
 > Введение
 
-![Vod Upload](_images/program/program_11.png)
+![Vod Upload](/_images/program/program_11.png)
 
 Здесь загружают/удаляют файлы фильмов. Требования: видео `HEVC/H.254/AV1`, аудио `AAC/MP3/AC-3/E-AC-3/FLAC/DTS`, формат файла <font color="red">обязательно</font> `.MP4`.
 
@@ -56,11 +56,11 @@
 
 !> После загрузки перейдите в `VOD Program`, выберите фильм и свяжите его с файлом.
 
-![Vod Upload](_images/program/program_12.png)
+![Vod Upload](/_images/program/program_12.png)
 
 Нажмите `Add`, чтобы перейти к добавлению.
 
-![Vod Upload](_images/program/program_13.png)
+![Vod Upload](/_images/program/program_13.png)
 
 1. <font color="red">**ID**</font>: генерируется системой; меньший ID — выше в списке.
 2. <font color="red">**Source**</font>: `Local File` (загрузка через систему) или `URL` (внешнее хранение).

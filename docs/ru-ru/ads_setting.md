@@ -172,9 +172,9 @@
 
 <font color="red">**Show Position**</font>: выберите позицию изображения — слева, справа, сверху или снизу.
 
-![Advertisement-Super Ads-Side Ads-Left ](_images/ads/ads_14.png ':size=40%') ![Advertisement-Super Ads-Side Ads-Right ](_images/ads/ads_13.png ':size=40%')
+![Advertisement-Super Ads-Side Ads-Left ](/_images/ads/ads_14.png ':size=40%') ![Advertisement-Super Ads-Side Ads-Right ](/_images/ads/ads_13.png ':size=40%')
 
-![Advertisement-Super Ads-Side Ads-Top ](_images/ads/ads_15.png ':size=40%') ![Advertisement-Super Ads-Side Ads-Bottom ](_images/ads/ads_16.png ':size=40%')
+![Advertisement-Super Ads-Side Ads-Top ](/_images/ads/ads_15.png ':size=40%') ![Advertisement-Super Ads-Side Ads-Bottom ](/_images/ads/ads_16.png ':size=40%')
 
 <font color="red">**Interval**</font>: интервал между показами; пока реклама активна, она повторяется с этим интервалом.
 
