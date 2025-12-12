@@ -30,16 +30,27 @@
 ![VOD Program-add](/_images/program/program_10.png)
 
 1. <font color="red">**Poster**</font>: загрузите постер — отображается в списке.
+
 2. <font color="red">**Name**</font>: название фильма.
+
 3. <font color="red">**Price**</font>: цена; 0 — бесплатно, иначе требуется оплата.
+
 4. <font color="red">**Director**</font>: режиссёр.
+
 5. <font color="red">**Actors**</font>: актёры.
+
 6. <font color="red">**Area**</font>: регион релиза.
+
 7. <font color="red">**Language**</font>: язык аудио по умолчанию.
+
 8. <font color="red">**Screen Time**</font>: длительность.
+
 9. <font color="red">**VOD Type**</font>: категория фильма.
+
 10. <font color="red">**Tag**</font>: отметка Hot — покажет в горячих и поднимет в списке.
+
 11. <font color="red">**Off Sale**</font>: снять фильм с показа/продажи.
+
 12. <font color="red">**Introduction**</font>: описание фильма.
 
 ## VOD Upload
