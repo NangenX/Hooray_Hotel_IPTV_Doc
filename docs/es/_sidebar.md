@@ -1,50 +1,50 @@
 
-- Inicio
+- Primeros pasos
 
-  - [Guía de inicio rápido](/es/quickstart.md)
+  - [Inicio rápido](/es/quickstart.md)
 
-- Gestión de clientes
+- Configuración de gestión de clientes
 
-  - [Gestión de clientes](/es/client_manage.md)
+  - [Gestionar cliente](/es/client_manage.md)  
 
-- Transmisión en vivo y VOD
+- Configuración de TV en vivo y video bajo demanda
 
-  - [Configuración de transmisión en vivo](/es/live-setting.md)
-  - [Configuración de VOD](/es/vod_setting.md)
+  - [Configuración en vivo](/es/live-setting.md)
+  - [Configuración VOD](/es/vod_setting.md)
 
-- Publicidad
+- Configuración de anuncios
 
-  - [Configuración de publicidad](/es/ads_setting.md)
+  - [Configuración de anuncios](/es/ads_setting.md)
 
-- Servicios del hotel
+- Configuración del servicio del hotel
 
-  - [Servicios del hotel](/es/hotel_service.md)
-  - [Servicios de alimentos](/es/food_service.md)
+  - [Configuración del servicio del hotel](/es/hotel_service.md)
+  - [Configuración del servicio de alimentos](/es/food_service.md)
 
-- Personalización
+- Configuración personalizada
 
   - [Configuración personalizada](/es/custom.md)
 
-- Información de vuelos
+- Configuración de información de vuelos
 
-  - [Vuelos](/es/flight.md)
+  - [Configuración de vuelo](/es/flight.md)
 
-- Clima
+- Configuración de información meteorológica
 
-  - [Clima](/es/weather.md)
+  - [Configuración del clima](/es/weather.md)
 
-- Instalaciones
+- Configuración de instalaciones
 
-  - [Instalaciones](/es/facilities.md)
+  - [Configuración de instalaciones](/es/facilities.md)  
 
-- Autorización
+- Configuración de autoridad
 
-  - [Autorización](/es/authority.md)
+  - [Configuración de autoridad](/es/authority.md)
 
 - Configuración básica del sistema
 
-  - [Configuración del sistema](/es/system.md)
+  - [Configuración básica del sistema](/es/system.md)  
 
-- Aplicación IPTV
+- Configuración de la aplicación IPTV
 
   - [Configuración de la aplicación IPTV](/es/system.md)
