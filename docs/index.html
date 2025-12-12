@@ -49,7 +49,7 @@
         min-width: 100px;
       }
 
-      /* RTL Layout for Arabic */
+      /* RTL Layout for Arabic (only when lang=ar -> dir=rtl) */
       html[dir="rtl"] .sidebar {
         left: auto;
         right: 0;
@@ -62,14 +62,20 @@
         right: 0;
       }
 
-      html[dir="rtl"] .content {
-        left: 0;
-        padding-left: 0;
-        padding-right: 0;
+      /* Keep main content clear of sidebar when open */
+      html[dir="rtl"] body:not(.close) .content {
+        margin-right: 300px;
+        margin-left: 0;
+        left: auto;
+        right: auto;
+      }
+
+      html[dir="rtl"] body.close .content {
+        margin-right: 0;
       }
 
       html[dir="rtl"] .markdown-section {
-        padding: 30px 15px 40px 80px;
+        padding: 30px 30px 40px 30px;
       }
 
       html[dir="rtl"] aside.sidebar {
@@ -105,7 +111,11 @@
         transform: scaleX(-1);
       }
 
-      /* Adjust sidebar toggle button for RTL */
+      /* Adjust sidebar toggle and hide behavior for RTL */
+      html[dir="rtl"] body.close .sidebar {
+        transform: translateX(300px);
+      }
+
       html[dir="rtl"] body.close .sidebar-toggle {
         left: auto;
         right: 0;
@@ -120,12 +130,16 @@
       @media screen and (max-width: 768px) {
         html[dir="rtl"] .sidebar {
           left: auto;
-          right: -300px;
-          transform: none;
+          right: 0;
+          transform: translateX(300px);
         }
 
         html[dir="rtl"] body.close .sidebar {
-          transform: translateX(-300px);
+          transform: translateX(300px);
+        }
+
+        html[dir="rtl"] body:not(.close) .sidebar {
+          transform: translateX(0);
         }
 
         html[dir="rtl"] .sidebar-toggle {
@@ -135,6 +149,11 @@
 
         html[dir="rtl"] .markdown-section {
           padding: 30px 15px 40px 15px;
+        }
+
+        /* On mobile, let content span full width; sidebar overlays */
+        html[dir="rtl"] .content {
+          margin-right: 0;
         }
       }
     </style>
