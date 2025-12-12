@@ -47,4 +47,3 @@
 - IPTV Application Setting
 
   - [IPTV Application Setting](system.md)  
-

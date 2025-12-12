@@ -1,103 +1,82 @@
-# Instalaciones
+# Configuración personalizada
 
-Gestione información sobre instalaciones e infraestructura del hotel.
+>Introducción
 
-## Información de instalaciones
+![Facilities Setting](_images/facilities/facilities_1.png)
 
-### Tipos de instalaciones
+En el menú `Custom Menu`, los administradores controlan si se muestra el mensaje de bienvenida en la página de inicio, así como la configuración del pedido de comidas en línea y la configuración de información sobre lugares de interés cercanos.
 
-- Gimnasio
-- Piscina
-- Restaurante
-- Bar
-- Spa
-- Sala de conferencias
-- Guardarropa
-- Centro de negocios
+## Palabras de bienvenida
 
-### Configurar instalaciones
+>Introducción
 
-1. Vaya a **Instalaciones** → **Gestión de instalaciones**
-2. Agregue instalación
-3. Ingrese detalles:
-   - Nombre
-   - Descripción
-   - Ubicación en el hotel
-   - Horarios
-   - Teléfono de contacto
-   - Foto/icono
-4. Guarde
+![Welcome Word](_images/custom/custom_2.png)
 
-## Horarios de funcionamiento
+En `Welcome Words`, el administrador configura el mensaje de bienvenida que se muestra en la página del terminal. Cuando el administrador registra el dispositivo terminal, el dispositivo mostrará automáticamente la información de texto correspondiente en la página de inicio.
 
-### Definir horarios
+Presione el botón `Add` para crear nuevas palabras de bienvenida
 
-1. Seleccione instalación
-2. Establezca horarios de apertura/cierre
-3. Agregue días especiales
-4. Configure periodos de cierre
+![Welcome Word - Add](_images/custom/custom_3.png)
 
-### Cambios estacionales
+<font color="red">**ID**</font> En `ID`, los IDs son administrados y generados por el sistema. No es necesario rellenarlo.
 
-- Horarios de verano/invierno
-- Horarios de fiestas
-- Cierres temporales
+<font color="red">**Clients**</font> En `Clients`, el administrador selecciona el dispositivo en el que se mostrará el mensaje de bienvenida. El dispositivo seleccionado mostrará la información del mensaje de bienvenida al registrarse.
 
-## Servicios disponibles
+<font color="red">**Welcome Words**</font> En `Material Type`, el administrador debe asignar si el material subido pertenece a la categoría `image` o `video`, y seleccionar la categoría correspondiente desplegando el menú.
 
-### Detallar servicios
+## Tipo de comida
 
-- Descripción
-- Tarifa
-- Reserva requerida
-- Duración
-- Restricciones de edad
+>Introducción
 
-### Reservas
+![Food Type](_images/custom/custom_4.png)
 
-1. Integrar con sistema de reservas
-2. Permitir reserva desde IPTV
-3. Sincronizar disponibilidad
-4. Confirmar reservas
+En `Food Type`, los administradores crean categorías para diferentes tipos de comida. Para facilitar la distinción entre diferentes alimentos.
 
-## Información de contacto
+Presione el botón `Add` para crear un nuevo tipo de comida
 
-### Números de teléfono
+![Food Type - Add](_images/custom/custom_5.png)
 
-- Recepción principal
-- Servicio a habitaciones
-- Mantenimiento
-- Dirección
+<font color="red">**ID**</font> En `ID`, los IDs son administrados y generados por el sistema. No es necesario rellenarlo.
 
-### Correos electrónicos
+<font color="red">**Name**</font> En `Name`, ingrese el nombre utilizado para identificar este tipo de comida
 
-- Consultas generales
-- Reservas
-- Soporte técnico
-- Comentarios
+## Comida
 
-## Mapa del hotel
+>Introducción
 
-### Información visual
+![Food](_images/custom/custom_6.png)
 
-1. Cargar plano del hotel
-2. Marcar ubicaciones de instalaciones
-3. Mostrar rutas
-4. Actualizar información
+En el menú `Food`, esta página muestra toda la información de comida reservable, incluyendo imágenes, nombres, precios, categorías, descripciones y el número de reservas. Los administradores pueden agregar, editar y eliminar información específica de comida reservable.
 
-## Promociones
+Presione el botón `Add` para crear nueva información de comida reservable.
 
-### Ofertas especiales
+![Food - Add](_images/custom/custom_7.png)
 
-- Descuentos por servicios
-- Paquetes combos
-- Eventos especiales
-- Promociones por temporada
+<font color="red">**Image**</font> En `Image`, el administrador sube la imagen de la comida correspondiente en venta, el formato de imagen admite PNG, JPG.
 
-## Resolución de problemas
+<font color="red">**Name**</font> En `Name`, ingrese el nombre utilizado para identificar la comida
 
-- Actualizar información de contacto
-- Verificar horarios
+<font color="red">**Price($)**</font> En `Prices`, el administrador establece el precio de esta reserva de comida
+
+<font color="red">**Food Type**</font> En `Food Type`, seleccione el tipo de comida al que pertenece la comida.
+
+<font color="red">**Description**</font> En `Description`, la descripción se utiliza para introducir la información de la comida, que se mostrará en el terminal del usuario.
+
+## Paisajes
+
+>Introducción
+
+![Scenery](_images/custom/custom_8.png)
+
+En `Scenery`, los administradores pueden agregar imágenes e información de introducción, que puede ser una introducción a las instalaciones del hotel, servicios del hotel o atracciones cercanas.
+
+Presione el botón `Add` para crear nueva información
+
+![Scenery - Add](_images/custom/custom_9.png)
+
+Suba la imagen de vista previa y la información del título de la introducción general en esta capa. Después de completar la operación, haga clic en el botón Submit para enviar. Después del envío, comience a agregar imágenes detalladas e información, y haga clic en el icono más para entrar en la configuración de la página detallada. En esta página, puede subir las imágenes correspondientes y agregar información de texto.
+
+![Scenery - Add2](_images/custom/custom_10.png ':size=40%') ![Scenery - Add3](_images/custom/custom_11.png ':size=40%')
 - Comprobar disponibilidad de servicios
 
 # Configuración de Instalaciones

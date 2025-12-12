@@ -1,4 +1,3 @@
-
 - Primeros pasos
 
   - [Inicio rápido](/es/quickstart.md)
