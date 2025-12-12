@@ -40,10 +40,10 @@ Presione el botón `Add` para crear la cuenta de gerente
 
 ![Autoridad - Gerente](_images/authority/authority_5.png) 
 
-<font color="red">**Manager Name**</font>: En `Nombre del Gerente`, el administrador establece el nombre de la cuenta administrativa, que se utiliza para distinguir entre diferentes cuentas administrativas.
+<font color="red">**Manager Name**</font>: En `Manager Name`, el administrador establece el nombre de la cuenta administrativa, que se utiliza para distinguir entre diferentes cuentas administrativas.
 
-<font color="red">**Phone Number**</font>: En `Número de Teléfono`, el administrador rellena el número de teléfono móvil correspondiente, que ha aclarado la información de contacto de la persona a la que pertenece la cuenta.
+<font color="red">**Phone Number**</font>: En `Phone Number`, el administrador rellena el número de teléfono móvil correspondiente, que ha aclarado la información de contacto de la persona a la que pertenece la cuenta.
 
-<font color="red">**Manager Role**</font>: En `Rol de Gerente`, el administrador abre la lista desplegable para seleccionar el rol de gestión creado, y la clasificación corresponde al rol asignado a esa cuenta de administrador.
+<font color="red">**Manager Role**</font>: En `Manager Role`, el administrador abre la lista desplegable para seleccionar el rol de gestión creado, y la clasificación corresponde al rol asignado a esa cuenta de administrador.
 
-<font color="red">**Remarks**</font>: En `Observaciones`, el administrador rellena la información que necesita ser anotada para esa cuenta.
+<font color="red">**Remarks**</font>: En `Remarks`, el administrador rellena la información que necesita ser anotada para esa cuenta.

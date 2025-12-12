@@ -22,7 +22,8 @@ Press `Add` button to create new welcome words
 
 <font color="red">**Clients**</font> In `Clients`, the administrator selects the device on which the welcome message is displayed. The selected device will display the welcome message information when checked in.
 
-<font color="red">**Welcome Words**</font> In `Material Type`, the administrator needs to assign whether the uploaded material belongs to the `image` category or `video` category, and select the corresponding category by dropping down.
+<font color="red">**Welcome Words**</font> In `Welcome Words`, the administrator needs to input the welcome message information. The welcome message will be displayed on the home page of the terminal device when checked in.
+
 
 ## Food Type
 

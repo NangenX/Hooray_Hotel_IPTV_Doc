@@ -14,7 +14,7 @@ Press `Add` button to create the new airport information
 
 <font color="red">**ID**</font>: The ID number is the identification number. The smaller the identification number, the higher its position in the list. It should be noted that the identification number must be unique.
 
-<font color="red">**airport**</font>: `airport` refers to the name of the airport that needs to be displayed on the terminal.
+<font color="red">**Airport**</font>: `Airport` refers to the name of the airport that needs to be displayed on the terminal.
 
 <font color="red">**Country**</font>: `Country` represents the country where the airport is located.
 

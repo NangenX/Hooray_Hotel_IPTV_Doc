@@ -1,77 +1,27 @@
-# Información de vuelos
+ # Configuración de Información de Vuelos
 
-Gestione información de vuelos integrada en la plataforma Hooray Hotel IPTV.
+> Introducción
 
-## Configuración de fuente de vuelos
+![Configuración de Información de Vuelos](_images/flight/flight_1.png)
 
-### Conectar fuente de datos
+En el `Flight Info Menu`, los administradores pueden agregar, eliminar y modificar información sobre aeropuertos en ciudades de destino. El sistema IPTV obtendrá automáticamente la información de llegadas y salidas de vuelos de estos aeropuertos a través de una interfaz de terceros basada en la información del aeropuerto, y luego reenviará esta información a los dispositivos terminales a través de la interfaz. Los dispositivos terminales mostrarán la información en pantalla.
 
-1. Vaya a **Información de vuelos** → **Configuración**
-2. Seleccione proveedor de datos:
-   - API de aeropuerto
-   - Base de datos local
-   - Integración de terceros
-3. Ingrese credenciales
-4. Guarde configuración
+![Configuración de Información de Vuelos](_images/flight/flight_2.png)
 
-### Actualización automática
+Presione el botón `Add` para crear la nueva información del aeropuerto
 
-- Configurar intervalo de actualización
-- Establecer fuente horaria
-- Elegir aeropuertos a monitorear
+![Configuración de Información de Vuelos](_images/flight/flight_3.png)
 
-## Visualización de información
+<font color="red">**ID**</font>: El número de ID es el número de identificación. Cuanto menor sea el número de identificación, más alta será su posición en la lista. Cabe señalar que el número de identificación debe ser único.
 
-### Widget de vuelos
+<font color="red">**Airport**</font>: `Airport` se refiere al nombre del aeropuerto que necesita mostrarse en el terminal.
 
-1. Habilitar widget en inicio
-2. Seleccionar vuelos a mostrar:
-   - Próximas llegadas
-   - Próximas salidas
-   - Vuelos del huésped
-3. Configurar actualización
+<font color="red">**Country**</font>: `Country` representa el país donde se encuentra el aeropuerto.
 
-### Detalles de vuelo
+<font color="red">**City**</font>: `City` representa la ciudad donde se encuentra el aeropuerto.
 
-- Número de vuelo
-- Aeronave
-- Hora de salida/llegada
-- Puertas
-- Estado
+<font color="red">**Airport Code(IATA Code)**</font>: En la columna "Airport Code(IATA Code)", debe completar con precisión el código del aeropuerto. Si no puede proporcionar el código del aeropuerto con precisión, puede obtenerlo a través de motores de búsqueda u otros medios. Solo después de completar el código correcto podrá obtener la información correcta de llegadas y salidas de vuelos.
 
-## Información del huésped
+> Pantalla del Terminal
 
-### Búsqueda personal
-
-1. Los huéspedes ingresan número de vuelo
-2. Sistema muestra información actualizada
-3. Notificaciones de cambios
-
-### Integración con registro
-
-- Vincular con sistema de registro del hotel
-- Mostrar vuelos del huésped automáticamente
-- Proporcionar información de transporte
-
-## Notificaciones
-
-### Alertas de cambios
-
-- Retrasos
-- Cambios de puerta
-- Cancelaciones
-- Cambios de hora
-
-### Configuración de alertas
-
-1. Establecer avisos activos
-2. Seleccionar canales de notificación
-3. Personalizar mensajes
-4. Definir horarios
-
-## Resolución de problemas
-
-- Verificar conexión de fuente
-- Comprobar datos actualizados
-- Revisar credenciales de API
-- Contactar con proveedor de datos
+![Configuración de Información de Vuelos](_images/flight/flight_4.png)
