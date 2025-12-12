@@ -48,6 +48,95 @@
       nav.app-nav li ul {
         min-width: 100px;
       }
+
+      /* RTL Layout for Arabic */
+      html[dir="rtl"] .sidebar {
+        left: auto;
+        right: 0;
+        border-right: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.07);
+      }
+
+      html[dir="rtl"] .sidebar-toggle {
+        left: auto;
+        right: 0;
+      }
+
+      html[dir="rtl"] .content {
+        left: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      html[dir="rtl"] .markdown-section {
+        padding: 30px 15px 40px 80px;
+      }
+
+      html[dir="rtl"] aside.sidebar {
+        text-align: right;
+      }
+
+      html[dir="rtl"] .sidebar ul {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      html[dir="rtl"] .sidebar ul li {
+        text-align: right;
+      }
+
+      html[dir="rtl"] .sidebar ul ul {
+        padding-left: 0;
+        padding-right: 20px;
+      }
+
+      html[dir="rtl"] .app-nav {
+        left: 0;
+        right: auto;
+        text-align: left;
+      }
+
+      html[dir="rtl"] .github-corner {
+        left: 0;
+        right: auto;
+      }
+
+      html[dir="rtl"] .github-corner svg {
+        transform: scaleX(-1);
+      }
+
+      /* Adjust sidebar toggle button for RTL */
+      html[dir="rtl"] body.close .sidebar-toggle {
+        left: auto;
+        right: 0;
+      }
+
+      html[dir="rtl"] body:not(.close) .sidebar-toggle {
+        left: auto;
+        right: 300px;
+      }
+
+      /* Mobile adjustments for RTL */
+      @media screen and (max-width: 768px) {
+        html[dir="rtl"] .sidebar {
+          left: auto;
+          right: -300px;
+          transform: none;
+        }
+
+        html[dir="rtl"] body.close .sidebar {
+          transform: translateX(-300px);
+        }
+
+        html[dir="rtl"] .sidebar-toggle {
+          left: auto;
+          right: 0;
+        }
+
+        html[dir="rtl"] .markdown-section {
+          padding: 30px 15px 40px 15px;
+        }
+      }
     </style>
   </head>
 
