@@ -55,10 +55,18 @@
     <div id="app">Loading ...</div>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(fr-fr|es|ru-ru|zh-cn)\//);
+      var lang = location.hash.match(/#\/(fr-fr|es|ru-ru|zh-cn|ar)\//);
 
       if (lang) {
         document.documentElement.setAttribute('lang', lang[1]);
+        // Set RTL direction for Arabic
+        if (lang[1] === 'ar') {
+          document.documentElement.setAttribute('dir', 'rtl');
+        } else {
+          document.documentElement.setAttribute('dir', 'ltr');
+        }
+      } else {
+        document.documentElement.setAttribute('dir', 'ltr');
       }
 
       // Docsify configuration
@@ -88,6 +96,7 @@
         subMaxLevel: 2,
         name: 'Hooray Hotel IPTV Manual Book',
         nameLink: {
+          '/ar/': '#/ar/',
           '/es/': '#/es/',
           '/fr-fr/': '#/fr-fr/',
           '/ru-ru/': '#/ru-ru/',
@@ -96,6 +105,7 @@
         },
         search: {
           noData: {
+            '/ar/': 'لا توجد نتائج!',
             '/es/': '¡No hay resultados!',
             '/fr-fr/': 'Aucun résultat !',
             '/ru-ru/': 'Никаких результатов!',
@@ -104,13 +114,14 @@
           },
           paths: 'auto',
           placeholder: {
+            '/ar/': 'بحث',
             '/es/': 'Buscar',
             '/fr-fr/': 'Recherche',
             '/ru-ru/': 'Поиск',
             '/zh-cn/': '搜索',
             '/': 'Search',
           },
-          pathNamespaces: ['/es', '/fr-fr', '/ru-ru', '/zh-cn'],
+          pathNamespaces: ['/ar', '/es', '/fr-fr', '/ru-ru', '/zh-cn'],
         },
         plugins: [
           function (hook, vm) {
