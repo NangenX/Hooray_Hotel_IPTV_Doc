@@ -55,7 +55,7 @@
     <div id="app">Loading ...</div>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+      var lang = location.hash.match(/#\/(fr-fr|es|ru-ru|zh-cn)\//);
 
       if (lang) {
         document.documentElement.setAttribute('lang', lang[1]);
@@ -71,8 +71,8 @@
           // '/.*/_navbar.md': '/_navbar.md',
           // '/es/(.*)':
           //   'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
-          // '/de-de/(.*)':
-          //   'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
+          // '/fr-fr/(.*)':
+          //   'https://raw.githubusercontent.com/docsifyjs/docs-fr/master/$1',
           // '/ru-ru/(.*)':
           //   'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
           // '/zh-cn/(.*)':
@@ -89,7 +89,7 @@
         name: 'Hooray Hotel IPTV Manual Book',
         nameLink: {
           '/es/': '#/es/',
-          '/de-de/': '#/de-de/',
+          '/fr-fr/': '#/fr-fr/',
           '/ru-ru/': '#/ru-ru/',
           '/zh-cn/': '#/zh-cn/',
           '/': '#/',
@@ -97,7 +97,7 @@
         search: {
           noData: {
             '/es/': '¡No hay resultados!',
-            '/de-de/': 'Keine Ergebnisse!',
+            '/fr-fr/': 'Aucun résultat !',
             '/ru-ru/': 'Никаких результатов!',
             '/zh-cn/': '没有结果!',
             '/': 'No results!',
@@ -105,12 +105,12 @@
           paths: 'auto',
           placeholder: {
             '/es/': 'Buscar',
-            '/de-de/': 'Suche',
+            '/fr-fr/': 'Recherche',
             '/ru-ru/': 'Поиск',
             '/zh-cn/': '搜索',
             '/': 'Search',
           },
-          pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
+          pathNamespaces: ['/es', '/fr-fr', '/ru-ru', '/zh-cn'],
         },
         plugins: [
           function (hook, vm) {
