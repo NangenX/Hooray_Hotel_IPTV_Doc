@@ -1,105 +1,49 @@
-# Autorización
+# Configuración de Autoridad
 
-![Autorización](_images/authority/authority_1.png)
+>Introducción
 
-Gestione permisos y autoridades en la plataforma Hooray Hotel IPTV.
+![Autoridad](_images/authority/authority_1.png) 
 
-## Sistema de roles
+En `Authority`, el Súper Administrador necesita crear cuentas correspondientes y asignar roles administrativos a los administradores que inician sesión en el sistema IPTV.
 
-### Roles predefinidos
+## Configuración de Rol de Gerente
 
-- **Administrador:** acceso total
-- **Gerente:** gestión de contenido y dispositivos
-- **Operador:** operaciones diarias
-- **Soporte técnico:** resolución de problemas
-- **Huésped:** acceso limitado a contenido
+>Introducción
 
-### Crear roles personalizados
+En `Manager Role`, los administradores del sistema pueden ver la lista de roles de gerente creados. El rol de administrador del sistema no se puede eliminar, y los administradores del sistema pueden agregar, modificar y eliminar roles de gerente en esta página.
 
-![Autorización - Rol de gerente](_images/authority/authority_2.png)
+!> :warning: **Advertencia: el rol de administrador del sistema no se puede eliminar**
 
-![Autorización - Rol de gerente - Agregar](_images/authority/authority_3.png)
+![Autoridad - Rol de Gerente](_images/authority/authority_2.png) 
 
-1. Vaya a **Autorización** → **Roles**
-2. Haga clic en **Nuevo rol**
-3. Nombre el rol
-4. Asigne permisos específicos
-5. Guarde
+Presione el botón `Add` para crear el rol de gerente
 
-## Permisos
+![Autoridad - Rol de Gerente - Agregar](_images/authority/authority_3.png) 
 
-### Áreas de permisos
+<font color="red">**Role Name**</font>: En `Role Name`, el administrador establece el nombre del rol administrativo, que se utiliza para distinguir entre diferentes roles administrativos.
 
-- Gestión de dispositivos
-- Gestión de contenido
-- Gestión de usuarios
-- Reportes
-- Configuración del sistema
-- Facturación
+<font color="red">**Description**</font>: En `Description`, el administrador establece la información de descripción del rol administrativo correspondiente, que se utiliza para describir qué permisos tiene el rol.
 
-### Asignar permisos
+<font color="red">**Authority**</font>: En `Authority`, el administrador necesita marcar los permisos que tiene este rol administrativo. Los permisos se pueden dividir en Ver/Agregar/Editar/Eliminar
 
-1. Seleccione un rol
-2. Marque permisos permitidos
-3. Configure restricciones
-4. Guarde cambios
+<font color="red">**Remarks**</font>: En `Remarks`, el administrador rellena la información que necesita ser anotada para ese rol.
 
-## Operadores
+## Gerente
 
-### Gestión de operadores
+>Introducción
 
-![Autorización - Gerente](_images/authority/authority_4.png)
+En `Manger`, los administradores del sistema o administradores con privilegios de Configuración de Autoridad pueden administrar cuentas de administrador. En la lista de cuentas de administrador, puede ver las cuentas de administrador creadas, y puede agregar, editar y eliminar las cuentas de administrador correspondientes.
 
-![Autorización - Gerente](_images/authority/authority_5.png)
+![Autoridad - Gerente](_images/authority/authority_4.png) 
 
-1. Vaya a **Operadores**
-2. Agregue nuevo operador
-3. Asigne rol
-4. Configure credenciales
-5. Establezca períodos activos
+Presione el botón `Add` para crear la cuenta de gerente
 
-### Credenciales
+![Autoridad - Gerente](_images/authority/authority_5.png) 
 
-- Nombre de usuario único
-- Contraseña segura
-- Validación de correo
-- Autenticación de dos factores
+<font color="red">**Manager Name**</font>: En `Nombre del Gerente`, el administrador establece el nombre de la cuenta administrativa, que se utiliza para distinguir entre diferentes cuentas administrativas.
 
-## Acceso de huésped
+<font color="red">**Phone Number**</font>: En `Número de Teléfono`, el administrador rellena el número de teléfono móvil correspondiente, que ha aclarado la información de contacto de la persona a la que pertenece la cuenta.
 
-### Permisos de huésped
+<font color="red">**Manager Role**</font>: En `Rol de Gerente`, el administrador abre la lista desplegable para seleccionar el rol de gestión creado, y la clasificación corresponde al rol asignado a esa cuenta de administrador.
 
-- Contenido permitido
-- Restricciones de compra
-- Límites de tiempo de visualización
-- Canales permitidos
-
-### Control parental
-
-- Restricciones por edad
-- Bloqueo de contenido
-- PIN requerido
-- Horarios de visualización
-
-## Auditoría
-
-### Registros de acceso
-
-- Quién accedió
-- Cuándo y desde dónde
-- Qué acciones realizó
-- Cambios realizados
-
-### Reportes
-
-1. Generar reportes de actividad
-2. Exportar registros
-3. Analizar tendencias
-4. Identificar problemas
-
-## Resolución de problemas
-
-- Restablecer contraseña
-- Resolver bloqueos de cuenta
-- Revisar registros de acceso
-- Verificar permisos
+<font color="red">**Remarks**</font>: En `Observaciones`, el administrador rellena la información que necesita ser anotada para esa cuenta.

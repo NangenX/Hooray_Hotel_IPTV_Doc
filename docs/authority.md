@@ -24,7 +24,7 @@ Press `Add` button to create the manager role
 
 <font color="red">**Description**</font>: In `Description`, the administrator sets the corresponding administrative role description information, which is used to describe what permissions the role has.
 
-<font color="red">**Authority**</font>: In Authority, the administrator needs to check the permissions that this administrative role has. Permissions can be divided up into View/Add/Edit/Delete
+<font color="red">**Authority**</font>: In `Authority`, the administrator needs to check the permissions that this administrative role has. Permissions can be divided up into View/Add/Edit/Delete
 
 <font color="red">**Remarks**</font>: In `Remark`, the administrator fills in the information that needs to be remarked for that role.
 

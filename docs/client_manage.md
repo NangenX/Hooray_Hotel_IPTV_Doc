@@ -66,5 +66,3 @@ In the Client Status page, the administrator can operate the check-in and check-
 ![Client Status Check-In Status](_images/client/client_9.png)
 
 <font color="red">**Check-In**</font> Click the `Check-In` button, the administrator needs to fill in the name of the check-in customer and the welcome message displayed on the big screen.
-
-
