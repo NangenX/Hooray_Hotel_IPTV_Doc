@@ -1,48 +1,29 @@
-# Guía de inicio rápido
+# Inicio rápido
 
-Bienvenido a la plataforma Hooray Hotel IPTV. Esta guía lo llevará a través de los pasos básicos para poner en marcha el sistema.
+Este documento en línea proporciona una descripción general de las operaciones de la plataforma Hooray Hotel IPTV. Cubre temas tales como:
 
-![Página de inicio de sesión](_images/quickstart/1.png)
+1. Configuración de Cliente
+2. Configuración de Transmisión en Vivo y VOD
+3. Configuración de Anuncios
+4. Configuración de Servicios del Hotel
+5. Configuración Personalizada
+6. Configuración de Información de Vuelos
+7. Configuración de Información del Clima
+8. Configuración de Instalaciones
+9. Configuración de Autoridad
+10. Configuración Básica del Sistema
 
-## Requisitos previos
+Este manual proporcionará a los administradores instrucciones sobre cómo operar estas secciones de la plataforma Hotel IPTV. Cada sección tiene diferentes configuraciones y funcionalidades.
 
-- Acceso administrativo a la consola de gestión
-- Decodificadores o clientes instalados en las habitaciones
-- Conexión de red establecida
+Al utilizar este manual, obtendrá una comprensión integral de las características y operaciones de la Plataforma de Servicio Hooray Hotel IPTV, lo que le permitirá administrar mejor su servicio Hotel IPTV.
 
-## Paso 1: Configuración inicial
+## Inicializar
 
-1. Acceda a la consola de gestión con sus credenciales
-2. Configure los parámetros básicos del sistema
-3. Agregue los dispositivos clientes al sistema
+Prepare una laptop o computadora; la laptop o computadora debe poder acceder a la página web de la plataforma IPTV. La dirección de la página web es `http://{server ip}:{8080}`. Cuando la laptop o computadora acceda correctamente, verá la página de inicio de sesión.
 
-## Paso 2: Agregar canales en vivo
+![Página de Inicio de Sesión](_images/quickstart/1.png)
 
-1. Vaya a la sección "Transmisión en vivo"
-2. Configure las fuentes de transmisión
-3. Agregue canales a la guía electrónica de programas (EPG)
+!> :warning: **Advertencia: Si no puede acceder a la dirección, solucione los problemas de la siguiente manera:**
 
-## Paso 3: Cargar contenido VOD
-
-1. Navegue a "Configuración de VOD"
-2. Cargue archivos de video
-3. Categorice el contenido
-
-## Paso 4: Crear paquetes
-
-1. Defina paquetes de canales
-2. Asigne permisos de acceso
-3. Configure la programación
-
-## Paso 5: Probar el sistema
-
-1. Conecte un cliente de prueba
-2. Verifique la transmisión en vivo
-3. Pruebe el contenido VOD
-
-## Siguiente
-
-Para obtener más información, consulte los siguientes temas:
-- [Gestión de clientes](/es/client_manage.md)
-- [Configuración de transmisión en vivo](/es/live-setting.md)
-- [Configuración de VOD](/es/vod_setting.md)
+1. <font color="red">Asegúrese de que el cable de red esté correctamente conectado</font>
+2. <font color="red">Asegúrese de que la laptop o computadora pueda hacer ping a la dirección IP del Servidor Hotel IPTV</font>

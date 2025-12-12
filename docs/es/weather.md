@@ -1,87 +1,24 @@
-# Clima
+## Configuración del Clima
 
-Integre información meteorológica en la plataforma Hooray Hotel IPTV.
+> Introducción
 
-## Configuración de clima
+![Weather Setting](_images/weather/weather_1.png)
 
-### Conectar fuente meteorológica
+En el `Weather Menu`, los administradores pueden agregar, eliminar y modificar los nombres de las ciudades de destino. El sistema IPTV obtendrá automáticamente, a través de una interfaz de un tercero y basándose en los nombres de las ciudades, la información meteorológica de los próximos siete días para dichas ciudades, y luego enviará esta información a los dispositivos terminales mediante mensajes de interfaz. Los dispositivos terminales mostrarán la información en una pantalla grande.
 
-1. Vaya a **Clima** → **Configuración**
-2. Seleccione proveedor:
-   - OpenWeatherMap
-   - Weather API
-   - Servicio local
-3. Ingrese clave API
-4. Establezca ubicación
-5. Guarde configuración
+![Weather Setting](_images/weather/weather_2.png)
 
-### Actualización automática
+Pulse el botón `Add` para crear la nueva información de la ciudad.
 
-- Intervalo de actualización (15-60 minutos)
-- Horario de actualizaciones
-- Métrica (Celsius/Fahrenheit)
+![Weather Setting](_images/weather/weather_3.png)
 
-## Información meteorológica
+<font color="red">**ID**</font>: El número de `ID` es el identificador. Cuanto menor sea el número de identificación, mayor será su posición en la lista. Es importante que el número de identificación sea único.
 
-### Datos mostrados
+<font color="red">**Country**</font>: `Country` representa el país en el que se encuentra la ciudad.
 
-- Temperatura actual
-- Predicción de corto plazo
-- Velocidad del viento
-- Humedad
-- Visibilidad
-- Radiación UV
-- Índice de lluvia
+<font color="red">**City**</font>: Seleccione la `city` desde el menú desplegable. Esta ciudad es el destino para el que se consultará el clima.
 
-### Iconografía
+> Pantalla del terminal
 
-- Iconos de clima
-- Indicadores de alerta
-- Colores según condiciones
+![Weather Setting](_images/weather/weather_4.png)
 
-## Visualización
-
-### Widget de inicio
-
-1. Activar widget en inicio
-2. Mostrar:
-   - Temperatura
-   - Condiciones actuales
-   - Pronóstico de 5 días
-3. Configurar actualización automática
-
-### Pantalla completa
-
-- Información detallada
-- Gráficos de tendencias
-- Alertas de clima severo
-
-## Integración con servicios
-
-### Información de huésped
-
-- Mostrar clima de destino
-- Sugerencias de actividades
-- Recomendaciones de ropa
-
-### Avisos meteorológicos
-
-- Alertas de tormenta
-- Advertencias de calor
-- Alertas de viento fuerte
-- Condiciones de nieve/hielo
-
-## Personalización por ubicación
-
-### Múltiples ubicaciones
-
-1. Configurar ciudades principales
-2. Mostrar según ubicación del huésped
-3. Permitir cambio de ubicación
-
-## Resolución de problemas
-
-- Verificar conexión de Internet
-- Comprobar clave API
-- Revisar ubicación configurada
-- Verificar precisión de datos

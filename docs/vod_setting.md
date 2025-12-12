@@ -4,7 +4,7 @@
 
 ![Video On Demand Menu](_images/program/program_6.png)
 
-The `Video On Demand menu` allows administrators to create, modify, and delete `VDO Category`, `VOD Program` and `VOD Upload` settings.
+The `Video On Demand` allows administrators to create, modify, and delete `VDO Category`, `VOD Program` and `VOD Upload` settings.
 
 ## VOD Category
 

@@ -1,81 +1,53 @@
-# Mensaje
+# Configuración de Mensajes Push
 
-Gestione mensajería y comunicaciones en la plataforma Hooray Hotel IPTV.
+>Introducción
 
-## Sistema de mensajería
+![Push Message-Notification1 ](_images/17.png ':size=40%') ![Push Message-Notification2 ](_images/17-1.png ':size=40%')
 
-### Tipos de mensajes
+El servidor IPTV ofrece dos métodos de envío de mensajes:
 
-- Mensajes del hotel
-- Notificaciones
-- Alertas
-- Recordatorios
-- Boletines
+- `Rolling Subtitles`: subtítulos desplazables que se muestran en la parte superior de la pantalla, desplazándose de derecha a izquierda.
+- `Email`: el mensaje se envía en forma de correo; el terminal muestra un recordatorio y el usuario debe abrirlo para ver los detalles.
 
-## Crear y enviar mensajes
+## Correo electrónico
 
-### Nuevo mensaje
+>Introducción
 
-1. Vaya a **Mensaje** → **Crear mensaje**
-2. Seleccione tipo de mensaje
-3. Redacte contenido
-4. Agregue multimedia si es necesario
-5. Configure destino
+![Push Message-Email-1 ](_images/17-4.png ':size=40%') ![Push Message-Email-2 ](_images/17-5.png ':size=40%')
 
-### Destinatarios
+En el sistema IPTV se puede enviar un mensaje en forma de correo electrónico, que se empuja directamente al cliente correspondiente; el cliente debe confirmar y abrirlo en el terminal para ver los detalles.
 
-- Mensaje a habitación específica
-- Mensaje a grupo de habitaciones
-- Mensaje a todos
-- Mensaje por tipo de huésped
+Presione el botón `Add` para crear el `Email Message`.
 
-## Notificaciones
+![Push Message-Email-1 ](_images/17-6.png)
 
-### Configurar notificaciones
+- <font color="red">**Client**</font>: En `Client`, seleccione un grupo o especifique un suscriptor al que enviar el correo.
 
-1. Establezca tipo de notificación
-2. Configure triggers
-3. Defina hora de envío
-4. Personalice mensaje
+- <font color="red">**Title**</font>: El `Title` se usa para mostrar el asunto del correo.
 
-### Ejemplos
+- <font color="red">**Content**</font>: Ingrese el contenido que desea enviar en `Contenido`.
 
-- Recordatorio de checkout
-- Información de eventos
-- Ofertas especiales
-- Avisos de mantenimiento
 
-## Comunicación de hotel
+## Subtítulos rodantes
 
-### Anuncios
+>Introducción
 
-1. Crear anuncio
-2. Programar fecha/hora
-3. Asignar a dispositivos
-4. Seguimiento de visualizaciones
+![Push Message-Rolling Subtitle](_images/17-3.png)
 
-### Información importante
+En el sistema IPTV, el administrador puede enviar distintos subtítulos rodantes para diferentes grupos de suscriptores; los subtítulos rodantes permiten configurar color de fuente y color de fondo.
 
-- Noticias del hotel
-- Cambios de servicio
-- Aviso de mantenimiento
-- Información de seguridad
+Presione el botón `Add` para crear los `Rolling Subtitles`.
 
-## Historial de mensajes
+![Push Message-Rolling Subtitle-Add](_images/17-7.png)
 
-### Ver historial
+- <font color="red">**Content**</font>: Ingrese el texto que desea enviar en `Content`.
 
-1. Vaya a **Historial**
-2. Filtre por:
-   - Fecha
-   - Destinatario
-   - Tipo
-   - Estado
-3. Exporte si es necesario
+- <font color="red">**Client**</font>: En `Client`, seleccione un grupo o especifique un suscriptor al que enviar el subtítulo rodante.
 
-## Resolución de problemas
+- <font color="red">**Description**</font>: Describa los detalles de este subtítulo rodante.
 
-- Verificar destinatarios
-- Comprobar conexión de dispositivos
-- Revisar registros de entrega
-- Verificar permisos
+- <font color="red">**Date**</font>: En `Date`, el administrador puede especificar la fecha de inicio y la fecha de finalización del subtítulo.
+
+- <font color="red">**Time**</font>: En `Time`, el administrador puede especificar la hora de inicio y la hora de finalización del subtítulo.
+
+

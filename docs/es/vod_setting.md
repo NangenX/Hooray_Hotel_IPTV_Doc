@@ -1,111 +1,86 @@
-# Configuración de VOD
+## Configuración de Video On Demand (VOD)
 
-![Menú de video bajo demanda](_images/program/program_6.png)
+>Introducción
 
-Gestione la biblioteca de video bajo demanda (VOD) en la plataforma Hooray Hotel IPTV.
+![Video On Demand Menu](_images/program/program_6.png)
 
-## Categoría de VOD
+El menú de "Video On Demand" permite a los administradores crear, modificar y eliminar las configuraciones de `VOD Category`, `VOD Program` y `VOD Upload`.
 
-![Menú de video bajo demanda](_images/program/program_7.png)
+## VOD Category
 
-## Carga de contenido
+>Introducción
 
-### Cargar videos
+![Video On Demand Menu](_images/program/program_7.png)
 
-![Detalles de categoría de VOD](_images/program/program_8.png)
+En la función `VOD Category`, los administradores pueden crear, modificar y eliminar categorías para las películas. Al crear categorías de VOD, los administradores organizan mejor y asocian las películas correspondientes con sus categorías. Esto permite a los suscriptores buscar y filtrar las películas que desean ver de forma más cómoda.
 
-![Programa de VOD](_images/program/program_9.png)
+Los administradores pueden crear una nueva `VOD category` haciendo clic en el botón `Add`.
 
-![Agregar programa de VOD](_images/program/program_10.png)
+![VOD Category Detail](_images/program/program_8.png)
 
-1. Vaya a **Configuración de VOD** → **Carga de contenido**
-2. Haga clic en **Cargar video**
-3. Seleccione archivos de su dispositivo
-4. Ingrese metadatos:
-   - Título
-   - Descripción
-   - Género
-   - Año de lanzamiento
-   - Duración
-5. Haga clic en **Cargar**
+1. <font color="red">**ID**</font>: Este `ID` se genera automáticamente por el sistema y puede editarse manualmente. Al editar manualmente, no debe entrar en conflicto con otros ID. Este `ID` es el número de secuencia de la categoría VOD; cuanto menor sea el número, antes se mostrará la categoría VOD en el decodificador (set-top box).
 
-### Formatos soportados
+2. <font color="red">**Name**</font>: El `Name` se utiliza principalmente para mostrar el nombre de la categoría VOD en el decodificador.
 
-- MP4, MKV, AVI, MOV
-- Resoluciones: SD, HD, 4K
-- Códecs: H.264, H.265, VP9
+## VOD Program
 
-## Organización de contenido
+>Introducción
 
-### Crear categorías
+![VOD Program](_images/program/program_9.png)
 
-1. Vaya a **Categorías**
-2. Haga clic en **Nueva categoría**
-3. Nombre la categoría (películas, series, documentales)
-4. Asigne orden de visualización
+En el menú `VOD Program`, el administrador puede agregar, editar y eliminar información de películas, y vincular archivos de película a las entradas correspondientes. Después de agregar la información de una película, el administrador podrá ver la nueva carátula (poster) y la información correspondiente en el menú `VOD Program`, así como la cantidad de veces que la película ha sido reproducida bajo demanda.
 
-### Categorizar videos
+![VOD Program-add](_images/program/program_10.png)
 
-1. Seleccione videos
-2. Asigne categorías
-3. Agregue etiquetas
-4. Establish clasificaciones de contenido
+Los administradores pueden crear una nueva `movie` haciendo clic en el botón `Add`.
 
-## Carga de VOD
+1. <font color="red">**Poster**</font>: El administrador sube la `Poster` correspondiente a través de la página; el `poster` aparecerá en el terminal para identificar la película y atraer a los suscriptores a hacer clic para reproducirla.
 
-![Carga de VOD](_images/program/program_11.png)
+2. <font color="red">**Name**</font>: El `Name` se usa para mostrar el título de la película en el decodificador.
 
-![Carga de VOD](_images/program/program_12.png)
+3. <font color="red">**Price**</font>: El administrador puede establecer el `price` de la película; cuando el precio es 0, la película es gratuita; si el precio no es 0, al acceder el usuario se le solicitará el cobro.
 
-![Carga de VOD](_images/program/program_13.png)
+4. <font color="red">**Director**</font>: El `Director` se muestra en los detalles de la película; los suscriptores pueden ver esta información al entrar en los detalles de la película.
 
-## Gestión de metadatos
+5. <font color="red">**Actors**</font>: Los `Actors` se muestran en los detalles de la película; los suscriptores pueden ver esta información al entrar en los detalles de la película.
 
-### Editar información del video
+6. <font color="red">**Area**</font>: El `Area` indica la región de estreno en los detalles de la película; los suscriptores pueden verlo al entrar en los detalles.
 
-1. Seleccione un video
-2. Haga clic en **Editar**
-3. Actualice:
-   - Título y descripción
-   - Portada/imagen en miniatura
-   - Actores y directores
-   - Clasificación de contenido
+7. <font color="red">**Language**</font>: El `Language` muestra el idioma de audio predeterminado de la película; los suscriptores pueden verlo en los detalles.
 
-### Cargar carátulas
+8. <font color="red">**Screen Time**</font>: La `Screen Time` (duración) se muestra en los detalles de la película; los suscriptores pueden consultarla al entrar en los detalles.
 
-- Tamaño recomendado: 500x750px
-- Formatos: JPG, PNG
-- Proporción: 2:3
+9. <font color="red">**VOD Type**</font>: `VOD Type` selecciona la categoría a la que pertenece la película; las categorías permiten a los suscriptores encontrar rápidamente películas al filtrar por tipo.
 
-## Control de acceso
+10. <font color="red">**Tag**</font>: La `Tag` indica si la película pertenece a "Hot Movies"; si está marcada como película popular, la película aparecerá en la categoría "Hot" y se mostrará en la parte superior de la página VOD.
 
-### Configurar permisos
+11. <font color="red">**Off Sale**</font>: La opción `Off Sale` configura que la película esté fuera de venta en la aplicación.
 
-1. Seleccione videos o categorías
-2. Haga clic en **Permisos**
-3. Seleccione qué dispositivos/habitaciones pueden acceder
-4. Guarde cambios
+12. <font color="red">**Introduction**</font>: La `Introduction` se utiliza para describir los detalles de la película.
 
-### Restricciones de edad
+## VOD Upload
 
-- Configurar clasificación por edad
-- Requerir PIN para contenido restringido
-- Establecer horarios de visualización
+>Introducción
 
-## Búsqueda y recomendaciones
+![Vod Upload](_images/program/program_11.png)
 
-- Implementar búsqueda de texto completo
-- Usar recomendaciones basadas en historial
-- Crear listas personalizadas
+En la página VOD Upload, el administrador puede subir y eliminar archivos de película; el formato del archivo debe cumplir el estándar de Hooray VOD. El formato de vídeo admite codificación `HEVC/H.264/AV1`; el audio admite `AAC/MP3/AC-3/E-AC-3/FLAC/DTS`. El formato de archivo subido <font color="red">MUST BE</font> `.MP4`.
 
-## Analítica
+!> :warning: **Advertencia: Los nombres de archivo subidos `DEBEN` estar libres de símbolos especiales y espacios.**
 
-- Monitorear contenido más visto
-- Rastrear tiempo de visualización
-- Evaluar preferencias de usuarios
+Al hacer clic en `Choose File` se abrirá la ventana de selección; seleccione el archivo de película a subir. Cuando el archivo haya terminado de subirse, la página de carga se actualizará automáticamente y mostrará el archivo en la lista de subidos.
 
-## Resolución de problemas
+!> Después de subir el archivo de la película, haga clic en `VOD Program` para ir a la lista de información de películas, seleccione la película correspondiente y haga clic en el icono para vincular la película con el archivo subido.
 
-- Verificar compatibilidad de formato
-- Revisar registros de carga
-- Comprobar espacio de almacenamiento disponible
+![Vod Upload](_images/program/program_12.png)
+
+Haga clic en el botón `Add` para ir a la página de Añadir.
+
+![Vod Upload](_images/program/program_13.png)
+
+1. <font color="red">**ID**</font>: El `ID` se genera automáticamente por el sistema IPTV; el número generado se utiliza para el orden de visualización de los archivos; cuanto menor sea el número, más adelante se mostrará el archivo en la APP.
+
+2. <font color="red">**Source**</font>: El desplegable `Source` permite seleccionar la ubicación de almacenamiento del archivo de película: `URL` o `Local File`. Si el archivo se ha subido a través del sistema IPTV, seleccionar `Local File`; si está almacenado de otra forma, seleccionar `URL`.
+
+3. <font color="red">**URL**</font>: Cuando se selecciona `URL` en `Source`, rellenar la caja de entrada con la URL correspondiente del servidor remoto.
+

@@ -1,96 +1,54 @@
-# Configuración de transmisión en vivo
+# Configuración de Transmisión en Vivo
 
-![Menú de programa](_images/program/program_1.png)
+>Introducción
 
-Configure y gestione canales de transmisión en vivo en la plataforma Hooray Hotel IPTV.
+![Menú de Programa](_images/program/program_1.png)
 
-## Paquetes en vivo
+El menú de programas permite a los administradores crear, modificar y eliminar configuraciones de `Live` y `VOD`.
 
-![Paquete en vivo](_images/program/program_2.png)
+## Paquetes en Vivo
 
-## Configuración de fuentes
+>Introducción
 
-### Agregar una fuente
+![Paquete en Vivo](_images/program/program_2.png)
 
-![Agregar paquete en vivo](_images/program/program_3.png)
+En la función de Paquetes en Vivo, los administradores pueden crear, modificar y eliminar categorías para las fuentes de canales en vivo. Al crear categorías, se facilita la organización y asociación de las fuentes con sus categorías correspondientes, permitiendo a los suscriptores buscar y clasificar los canales en vivo que desean ver.
 
-1. Vaya a **Configuración de transmisión en vivo** → **Fuentes**
-2. Haga clic en **Nueva fuente**
-3. Ingrese la información:
-   - Nombre de la fuente
-   - URL de transmisión (RTMP, HLS, etc.)
-   - Tipo de codec
-4. Haga clic en **Guardar**
+Los administradores pueden crear nuevas categorías en vivo haciendo clic en el botón `Add`. Cada categoría debe asociarse a una fuente de canal en vivo; cada categoría puede subir un póster distintivo.
 
-### Verificar la conexión
+![Live Package-Add](_images/program/program_3.png)
 
-- Pruebe la fuente antes de guardar
-- Monitoree la calidad de la señal
-- Configure redundancia si es necesario
+1. <font color="red">**ID**</font>: El `ID` se genera automáticamente por el sistema; cuanto menor sea el `ID`, más arriba se mostrará la categoría en la lista. Puede ajustar el `ID` en la página de edición para ordenar las categorías.
 
-## Gestión de canales
+2. <font color="red">**Name**</font>: El `Name` distingue entre los distintos nombres de categoría.
 
-![Programa en vivo](_images/program/program_4.png)
+3. <font color="red">**Price**</font>: El administrador puede configurar el `price` de la categoría en vivo; cuando el precio es 0, la categoría es gratuita; si no es 0, al acceder se solicitará cobro.
 
-### Agregar canales
+4. <font color="red">**Image**</font>: Subiendo la `image` correspondiente a la categoría, ésta se mostrará en el menú de categorías en el decodificador.
 
-![Detalles de agregar canal en vivo](_images/program/program_5.png)
+!>  **Warning: Live Package upload image size should 300x210**
 
-1. Vaya a **Canales en vivo**
-2. Haga clic en **Agregar canal**
-3. Seleccione la fuente
-4. Configure:
-   - Número de canal
-   - Nombre visible
-   - Icono/logo
-   - Descripción
-5. Haga clic en **Guardar**
+5. <font color="red">**Live Program Select**</font>: Para `select` el programa en vivo correspondiente a la categoría, el administrador debe seleccionar los programas que se mostrarán bajo esa categoría en el menú del terminal.
 
-### Organizar canales
+6. <font color="red">**STB Select**</font>: El administrador selecciona los dispositivos en la lista; solo los dispositivos seleccionados podrán mostrar esta categoría en vivo.
 
-- Agrupar por categoría (noticias, deportes, películas)
-- Establecer orden de visualización
-- Configurar permisos de acceso
+## Programa en Vivo
 
-## Guía electrónica de programas (EPG)
+>Introducción
 
-### Importar EPG
+![Programa en Vivo](_images/program/program_4.png)
 
-1. Vaya a **Configuración de transmisión en vivo** → **EPG**
-2. Haga clic en **Importar**
-3. Cargue el archivo EPG (XML)
-4. Asigne canales a programas
+En la sección "Live Program", los administradores pueden añadir manualmente o en lote programas en vivo. Tras añadirlos, pueden editar y eliminar programas específicos. Se admiten protocolos comunes: UDP(unicast)/RTP(unicast)/HTTP-TS/HTTP-FLV/RTMP/RTMPS/HLS/DASH, entre otros.
 
-### Actualizar EPG
+Los administradores pueden crear un nuevo canal en vivo haciendo clic en el botón `Add`.
 
-- Configure actualizaciones automáticas
-- Especifique intervalos de actualización
-- Verifique la integridad de los datos
+![Live Channel Add Detail](_images/program/program_5.png)
 
-## Paquetes de canales
+1. <font color="red">**ID**</font>: Este `ID` se genera automáticamente por el sistema y puede editarse manualmente. Al editar manualmente no debe entrar en conflicto con otros `ID`. Este `ID` es el número de orden del canal; cuanto menor sea, antes se mostrará en el decodificador.
 
-### Crear un paquete
+2. <font color="red">**Name**</font>: El `Name` se usa para mostrar el nombre del canal en el decodificador. El texto ingresado se muestra completo como nombre del canal.
 
-1. Vaya a **Paquetes de canales**
-2. Haga clic en **Nuevo paquete**
-3. Seleccione canales
-4. Configure permisos
-5. Asigne precios (si es aplicable)
+3. <font color="red">**URL**</font>: Rellene la `URL` con la dirección que debe reproducirse en el terminal.
 
-### Asignación de clientes
+4. <font color="red">**Image**</font>: Al subir el `program logo` correspondiente, éste se mostrará en la lista de canales y en el detalle del canal en el decodificador.
 
-- Asigne paquetes a habitaciones o grupos
-- Configure acceso basado en permisos
-- Monitoree el uso
-
-## Programación
-
-- Establecer horarios de transmisión
-- Configurar transmisiones en vivo automáticas
-- Gestionar cambios de programación
-
-## Resolución de problemas
-
-- Verificar calidad de la fuente
-- Revisar registros de transmisión
-- Comprobar ancho de banda disponible
