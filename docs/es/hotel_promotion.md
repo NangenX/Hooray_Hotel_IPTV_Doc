@@ -20,7 +20,6 @@ Haz clic en el botón "Agregar" para crear una nueva promoción del hotel.
 <font color="red">**Imagen de fondo**</font>: Sube una imagen de fondo para la página de detalles de la promoción. Cuando un huésped haga clic en la promoción, esta imagen se usará como fondo principal.
 
 
-
 ## Agregar Detalles de la Promoción del Hotel
 
 > Introducción
@@ -33,7 +32,7 @@ Esta sección está disponible al editar una promoción existente. Aquí puedes 
 
 **Soporte de múltiples imágenes:** A diferencia de los campos de imagen única (cartel y fondo), esta sección permite subir varias imágenes para la página de detalles de la promoción.
 
-**Contenido detallado:** Estas imágenes enriquecen la descripción de la promoción que se muestra en el terminal IPTV, permitiendo a los huéspedes ver más aspectos de la oferta (por ejemplo, vistas de instalaciones, platos específicos o escenas de actividades).
+![Agregar Promoción del Hotel](_images/promotion/promotion_5.png)
 
 <font color="red">**Imagen**</font>: Sube imágenes de la promoción del hotel para que se muestren en el terminal. Actualmente, solo se puede subir una imagen.
 

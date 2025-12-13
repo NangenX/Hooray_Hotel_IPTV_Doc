@@ -1,4 +1,3 @@
-
 # Hotel Promotion Setting
 
 > Introduction
@@ -26,13 +25,11 @@ Click the `Add` button to create a new hotel promotion.
 
 ![Hotel Promotion Add](_images/promotion/promotion_4.png)
 
-![Hotel Promotion Add](_images/promotion/promotion_5.png)
-
 This section is available when editing an existing promotion. Here you can upload additional images to provide guests with more details about the activity or service.
 
 **Multi-Image Support:** Unlike the single-image fields (Poster and Background), this section allows you to upload multiple images for the promotion detail page.
 
-**Detailed Content:** These images enhance the promotion description shown on the IPTV terminal, allowing guests to see more aspects of the offering (e.g., facility views, specific food items, or activity scenes).
+![Hotel Promotion Add](_images/promotion/promotion_5.png)
 
 <font color="red">**Image**</font>: Upload hotel promotion images to be displayed on the terminal. Currently, only one image can be uploaded.
 
