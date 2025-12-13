@@ -18,6 +18,7 @@
 - Paramètres du service hôtelier
 
   - [Paramètres du service hôtelier](hotel_service.md)
+  - [Paramètres de la promotion de l'hôtel](hotel_promotion.md)
   - [Paramètres du service de restauration](food_service.md)
 
 - Paramètres personnalisés

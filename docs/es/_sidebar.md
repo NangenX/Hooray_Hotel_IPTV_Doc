@@ -18,6 +18,7 @@
 - Configuración del servicio del hotel
 
   - [Configuración del servicio del hotel](/es/hotel_service.md)
+  - [Configuración de la promoción del hotel](/es/hotel_promotion.md)
   - [Configuración del servicio de alimentos](/es/food_service.md)
 
 - Configuración personalizada

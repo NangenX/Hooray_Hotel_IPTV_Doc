@@ -18,6 +18,7 @@
 - Hotel Service Setting
 
   - [Hotel Service Setting](hotel_service.md)
+  - [Hotel Promotion Setting](hotel_promotion.md)
   - [Food Service Setting](food_service.md)
 
 - Custom Setting
