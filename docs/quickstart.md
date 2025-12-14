@@ -27,3 +27,11 @@ By using this manual, you will gain a comprehensive understanding of the feature
 
 1. <font color="red"> Make sure the network cable is correctly linked </font>
 2. <font color="red"> Make sure the laptop or desktop can ping the Hotel IPTV Server IP </font>
+
+## Developer Resources
+
+Here is an example of how to fetch data from the server using JavaScript. This code is dynamically loaded from `_media/example.js`:
+
+[Example Code](_media/example.js ':include :type=code javascript')
+
+You can also [download the example file](_media/example.js ':ignore').
