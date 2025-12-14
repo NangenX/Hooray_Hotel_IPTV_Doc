@@ -2,7 +2,7 @@
 
 > Introduction
 
-![Hotel Promotion](_images/promotion/promotion_1.png ':size=40%')
+![Hotel Promotion](_images/promotion/promotion_1.png)
 
 ![Hotel Promotion](_images/promotion/promotion_2.png)
 

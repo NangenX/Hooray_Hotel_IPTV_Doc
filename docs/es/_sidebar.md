@@ -47,4 +47,4 @@
 
 - Configuración de la aplicación IPTV
 
-  - [Configuración de la aplicación IPTV](/es/system.md)
+  - [Configuración de la aplicación IPTV](/es/apk.md)

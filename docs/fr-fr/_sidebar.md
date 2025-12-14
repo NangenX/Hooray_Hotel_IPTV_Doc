@@ -42,4 +42,4 @@
 
 - Paramètres de l'application IPTV
 
-  - [Paramètres de l'application IPTV](/fr-fr/system.md)  
+  - [Paramètres de l'application IPTV](/fr-fr/apk.md)  
