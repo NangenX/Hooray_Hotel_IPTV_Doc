@@ -1,6 +1,6 @@
 # Documentation en ligne Hooray IPTV
 
-> Basée sur Hooray Hotel IPTV Platform v1.1.3_Release_Date_2025-12-11.
+> Basée sur Hooray Hotel IPTV Platform v1.1.4_Release_Date_2025-12-30.
 
 ## Présentation
 Ce site explique comment configurer et exploiter la plateforme de gestion Hooray Hotel IPTV. Il fournit des étapes détaillées pour l'installation, la configuration et l'exploitation quotidienne du système.
