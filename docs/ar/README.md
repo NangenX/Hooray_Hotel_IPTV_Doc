@@ -1,6 +1,6 @@
 # وثائق Hooray IPTV عبر الإنترنت
 
-> بناءً على Hooray Hotel IPTV Platform v1.1.4_Release_Date_2025-12-30.
+> بناءً على Hooray Hotel IPTV Platform v2.0.9.
 
 ## نظرة عامة
 

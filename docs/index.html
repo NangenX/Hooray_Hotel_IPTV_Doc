@@ -55,7 +55,7 @@
     <div id="app">Loading ...</div>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(fr-fr|es|ru-ru|zh-cn|ar)\//);
+      var lang = location.hash.match(/#\/(fr-fr|es|ru-ru|ar)\//);
 
       if (lang) {
         document.documentElement.setAttribute('lang', lang[1]);
@@ -83,8 +83,6 @@
           //   'https://raw.githubusercontent.com/docsifyjs/docs-fr/master/$1',
           // '/ru-ru/(.*)':
           //   'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
-          // '/zh-cn/(.*)':
-          //   'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
         },
         auto2top: true,
         coverpage: true,
@@ -100,7 +98,6 @@
           '/es/': '#/es/',
           '/fr-fr/': '#/fr-fr/',
           '/ru-ru/': '#/ru-ru/',
-          '/zh-cn/': '#/zh-cn/',
           '/': '#/',
         },
         search: {
@@ -109,7 +106,6 @@
             '/es/': '¡No hay resultados!',
             '/fr-fr/': 'Aucun résultat !',
             '/ru-ru/': 'Никаких результатов!',
-            '/zh-cn/': '没有结果!',
             '/': 'No results!',
           },
           paths: 'auto',
@@ -118,10 +114,9 @@
             '/es/': 'Buscar',
             '/fr-fr/': 'Recherche',
             '/ru-ru/': 'Поиск',
-            '/zh-cn/': '搜索',
             '/': 'Search',
           },
-          pathNamespaces: ['/ar', '/es', '/fr-fr', '/ru-ru', '/zh-cn'],
+          pathNamespaces: ['/ar', '/es', '/fr-fr', '/ru-ru'],
         },
         plugins: [
           function (hook, vm) {
