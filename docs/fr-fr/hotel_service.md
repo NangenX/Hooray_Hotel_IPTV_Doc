@@ -49,5 +49,6 @@ Gérer les services commandables en chambre (ajout, édition, suppression).
 > Introduction
 
 ![Order Status](_images/hotel/hotel_7.png ':size=40%')
+<!-- 📷 截图待补充 -->
 
 Vue des commandes envoyées depuis les terminaux. Actions : `receive` pour accepter, `delete` pour annuler, puis `finish` pour clôturer une fois le service rendu.

@@ -53,5 +53,6 @@ Presione el botón `Add` para crear el nuevo servicio para pedidos en línea.
 >Introducción
 
 ![Estado de Pedidos](_images/hotel/hotel_7.png ':size=40%') 
+<!-- 📷 截图待补充 -->
 
 En esta página, el administrador puede ver los detalles del pedido de artículos enviado por el suscriptor desde el terminal. Cuando el administrador recibe el pedido del suscriptor, puede `receive` el pedido usando el botón RECEIVE o `cancel` el pedido del suscriptor usando el botón DELETE. Después de aceptar el pedido del suscriptor, cuando el pedido se complete, el administrador puede hacer clic en el botón Finish nuevamente para `complete` todo el proceso del pedido.

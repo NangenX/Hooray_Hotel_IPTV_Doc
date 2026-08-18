@@ -53,5 +53,6 @@ Press `Add` button to create the new service for online ordering.
 >Introduction
 
 ![Order Status](_images/hotel/hotel_7.png ':size=40%') 
+<!-- 📷 截图待补充 -->
 
 In this page the administrator can view the details of the item order sent by the subscriber from the terminal. When the administrator receives the subscriber's order, he or she can `receive` the order by using the RECEIVE button or `cancel` the subscriber's order by using the DELETE button. After accepting the subscriber's order, when the order is completed, the administrator can click Finish button again to `complete` the whole order process.
