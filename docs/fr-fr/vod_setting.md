@@ -50,7 +50,7 @@ Ajouter/éditer/supprimer les films et lier les fichiers vidéo. Visualiser le p
 
 10. <font color="red">**Tag**</font> : marquer comme Hot Movie pour l'afficher en tête de page VOD.
 
-12. <font color="red">**Off Sale**</font> : retirer le film de la vente dans l'app.
+11. <font color="red">**Off Sale**</font> : retirer le film de la vente dans l'app.
 
 12. <font color="red">**Introduction**</font> : résumé/détails du film.
 

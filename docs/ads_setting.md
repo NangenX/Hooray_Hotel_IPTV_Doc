@@ -132,7 +132,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
-<font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
+<font color="red">**Publish**</font>: After checking `Publish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
 
 >Introduction **Commercial Ads Setting**
@@ -155,7 +155,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
-<font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
+<font color="red">**Publish**</font>: After checking `Publish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
 <font color="red">**Turn on channel switching**</font>: In `Turn on channel switching`, Commercial Ads play when a device switches live channel in a live program or switches VOD in VOD program.
 
@@ -187,7 +187,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
-<font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
+<font color="red">**Publish**</font>: After checking `Publish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
 >Introduction **Emergency Ads Setting**
 
@@ -210,4 +210,4 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
 
 <font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
-<font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
+<font color="red">**Publish**</font>: After checking `Publish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.

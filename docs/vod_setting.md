@@ -54,7 +54,7 @@ Administrators can create new `movie` by clicking on the `Add` button.
 
 10. <font color="red">**Tag**</font>: The `Tag` is used to indicate whether the movie belongs to Hot Movies or not, when it is indicated as a Hot Movie, the movie will appear in the Hot Category and be displayed at the top of the VOD page.
 
-12. <font color="red">**Off Sale**</font>: The `Off Sale` to setup the movie offline from app
+11. <font color="red">**Off Sale**</font>: The `Off Sale` to setup the movie offline from app
 
 12. <font color="red">**Introduction**</font>: This `Introduction` Used to introduce movie details
 
