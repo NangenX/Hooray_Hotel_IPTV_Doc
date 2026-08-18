@@ -48,4 +48,4 @@ Cliquez sur `Add` pour créer un compte.
 
 <font color="red">**Remarks**</font> : notes complémentaires sur le compte.
 
-> **Remarque** : les mots de passe des administrateurs sont stockés avec l'algorithme BCrypt (avec une transition fluide à double hachage). Le mot de passe d'usine par défaut `123456` est utilisé pour la première connexion ; il est fortement recommandé de le changer après la première connexion.
+> **Remarque** : le mot de passe d'usine par défaut est `123456` pour la première connexion. Il est fortement recommandé de le changer après la première connexion.

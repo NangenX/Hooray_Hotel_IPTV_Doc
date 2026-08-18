@@ -48,4 +48,4 @@ Presione el botón `Add` para crear la cuenta de gerente
 
 <font color="red">**Remarks**</font>: En `Remarks`, el administrador rellena la información que necesita ser anotada para esa cuenta.
 
-> **Nota**: las contraseñas de los administradores se almacenan con el algoritmo BCrypt (con una transición dual de hash fluida). La contraseña de fábrica por defecto `123456` se utiliza para el primer inicio de sesión; se recomienda encarecidamente cambiarla después del primer inicio de sesión.
+> **Nota**: la contraseña de fábrica por defecto es `123456` para el primer inicio de sesión. Se recomienda encarecidamente cambiarla después del primer inicio de sesión.

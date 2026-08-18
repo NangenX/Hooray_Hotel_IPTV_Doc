@@ -14,9 +14,9 @@
 
 <!-- 📷 Captura pendiente: página de verificación del huésped -->
 
-El huésped introduce el **número de habitación** y el **apellido del huésped registrado** en la página de verificación. El sistema comprueba la habitación y el apellido (coincidencia de prefijo, sin distinguir mayúsculas) y crea una sesión de huésped aislada. La sesión del huésped está completamente separada de la sesión del administrador.
+El huésped introduce el **número de habitación** y el **apellido del huésped registrado** en la página de verificación. Tras verificar correctamente, el huésped puede usar todos los servicios.
 
-> **Nota**: la sesión del huésped es por navegador y caduca después de un tiempo de espera. El huésped debe volver a verificar después de que caduque la sesión.
+> **Nota**: si la página permanece sin uso durante mucho tiempo, el huésped deberá volver a verificar.
 
 ## TV en vivo
 

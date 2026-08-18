@@ -14,9 +14,9 @@
 
 <!-- 📷 截图待补充：客人验证页面 -->
 
-The guest enters the **room number** and the **surname of the registered guest** on the verification page. The system checks the room and the surname (prefix match, case-insensitive), and creates an isolated guest session. The guest session is completely separated from the administrator session.
+The guest enters the **room number** and the **surname of the registered guest** on the verification page. After the verification succeeds, the guest can use all the guest services.
 
-> **Note**: the guest session is per-browser and expires after a timeout. The guest must verify again after the session expires.
+> **Note**: if the page is left unused for a long time, the guest will need to verify again.
 
 ## Live TV
 

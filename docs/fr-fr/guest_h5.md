@@ -14,9 +14,9 @@
 
 <!-- 📷 Capture à compléter : page de vérification invité -->
 
-Le client saisit le **numéro de chambre** et le **nom de famille du client enregistré** sur la page de vérification. Le système vérifie la chambre et le nom de famille (correspondance par préfixe, insensible à la casse) et crée une session invité isolée. La session invité est complètement séparée de la session administrateur.
+Le client saisit le **numéro de chambre** et le **nom de famille du client enregistré** sur la page de vérification. Après vérification réussie, le client peut utiliser tous les services.
 
-> **Remarque** : la session invité est propre au navigateur et expire après un délai d'inactivité. Le client doit se vérifier à nouveau après l'expiration de la session.
+> **Remarque** : si la page reste inutilisée pendant longtemps, le client devra se vérifier à nouveau.
 
 ## TV en direct
 

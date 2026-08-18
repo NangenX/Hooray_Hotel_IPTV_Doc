@@ -90,7 +90,7 @@ La lista de dispositivos muestra la telemetría en tiempo real reportada por cad
 Haga clic en el botón `Detalle` del dispositivo para abrir el diálogo de detalle, donde la información se agrupa para facilitar su consulta:
 
 - **Información del dispositivo**: dirección MAC, IP, nombre de habitación, categoría de habitación, modelo del dispositivo, etc.
-- **Capacidades**: las capacidades de comando declaradas por el dispositivo (p. ej. si soporta `clear_guest_data`, `get_logs`, `get_telemetry`).
+- **Funciones compatibles**: las funciones remotas compatibles con el dispositivo (p. ej. limpieza remota, recuperación de registros, informe de estado).
 - **Historial de comandos**: las últimas instrucciones del dispositivo (hasta 10 registros), con su estado y resultado.
 - **Ver registro**: abrir el registro del dispositivo en un diálogo independiente.
 
@@ -102,10 +102,10 @@ El administrador puede enviar de forma remota los siguientes comandos a un dispo
 |---|---|
 | **reboot** | Reiniciar el decodificador de forma remota. |
 | **clear_guest_data** | Borrar los datos de huésped de las aplicaciones de terceros del dispositivo (p. ej. estado de inicio de sesión y caché de Netflix/YouTube). Los paquetes a limpiar se controlan mediante la lista blanca de limpieza al hacer check-out configurada en la página `Información del cliente` (véase `Lista blanca de limpieza al check-out`). |
-| **get_telemetry** | Pedir al dispositivo que informe inmediatamente una ronda completa de telemetría (CPU/memoria), en lugar de esperar al siguiente informe periódico. |
+| **get_telemetry** | Pedir al dispositivo que informe inmediatamente su estado de funcionamiento actual (uso de CPU/memoria). |
 | **get_logs** | Pedir al dispositivo que devuelva su texto de registro (hasta 100KB). El contenido devuelto puede consultarse en el historial de comandos. |
 
-> **Nota**: los comandos solo se entregan a los dispositivos que declaran la capacidad correspondiente. Los dispositivos que no han reportado capacidades no recibirán los comandos de nueva generación.
+> **Nota**: cada operación solo está disponible en los dispositivos que admiten la función correspondiente.
 
 ### Limpieza masiva manual
 

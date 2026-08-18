@@ -89,7 +89,7 @@ La liste des appareils affiche la télémétrie en temps réel signalée par cha
 Cliquez sur le bouton `Détail` de l'appareil pour ouvrir le dialogue de détail, où les informations sont regroupées pour une consultation facile :
 
 - **Informations sur l'appareil** : adresse MAC, IP, nom de la chambre, catégorie de la chambre, modèle de l'appareil, etc.
-- **Capacités** : les capacités de commande déclarées par l'appareil (ex. s'il prend en charge `clear_guest_data`, `get_logs`, `get_telemetry`).
+- **Fonctions prises en charge** : les fonctions à distance prises en charge par l'appareil (ex. nettoyage à distance, récupération de journaux, rapport d'état).
 - **Historique des commandes** : les dernières instructions de l'appareil (jusqu'à 10 enregistrements), avec leur état et leur résultat.
 - **Voir le journal** : ouvrir le journal de l'appareil dans un dialogue indépendant.
 
@@ -101,10 +101,10 @@ L'administrateur peut envoyer à distance les commandes suivantes à un appareil
 |---|---|
 | **reboot** | Redémarrer le décodeur à distance. |
 | **clear_guest_data** | Effacer les données client des applications tierces sur l'appareil (ex. état de connexion et cache de Netflix/YouTube). Les paquets à nettoyer sont contrôlés par la liste blanche de nettoyage au départ configurée dans la page `Informations client` (voir `Liste blanche de nettoyage au départ`). |
-| **get_telemetry** | Demander à l'appareil de signaler immédiatement un cycle complet de télémétrie (CPU/mémoire), au lieu d'attendre le prochain rapport périodique. |
+| **get_telemetry** | Demander à l'appareil de signaler immédiatement son état de fonctionnement actuel (utilisation CPU/mémoire). |
 | **get_logs** | Demander à l'appareil de renvoyer son texte de journal (jusqu'à 100 Ko). Le contenu renvoyé peut être consulté dans l'historique des commandes. |
 
-> **Remarque** : les commandes ne sont délivrées qu'aux appareils qui déclarent la capacité correspondante. Les appareils qui n'ont pas signalé de capacités ne recevront pas les commandes de nouvelle génération.
+> **Remarque** : chaque opération n'est disponible que sur les appareils qui prennent en charge la fonction correspondante.
 
 ### Nettoyage manuel groupé
 

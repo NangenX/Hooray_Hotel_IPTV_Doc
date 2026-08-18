@@ -90,7 +90,7 @@ The device list shows the real-time telemetry reported by each set-top box, incl
 Click the device `Detail` button to open the device detail dialog, where the information is grouped for easy viewing:
 
 - **Device information**: MAC address, IP, room name, room category, device model, etc.
-- **Capabilities**: the command capabilities declared by the device (e.g. whether it supports `clear_guest_data`, `get_logs`, `get_telemetry`).
+- **Supported functions**: the remote functions supported by the device (e.g. remote cleaning, log retrieval, status reporting).
 - **Command history**: the latest instructions of the device (up to 10 records), with their status and results.
 - **View Log**: open the device log in an independent dialog.
 
@@ -101,11 +101,11 @@ The administrator can remotely send the following commands to a device:
 | Command | Description |
 |---|---|
 | **reboot** | Remotely restart the set-top box. |
-| **clear_guest_data** | Clear the guest data of third-party apps on the device (e.g. Netflix/YouTube login state and cache). The packages to be cleaned are controlled by the check-out cleaning whitelist configured in `System Settings` (see `Guest Clean Packages`). |
-| **get_telemetry** | Ask the device to immediately report a full round of telemetry (CPU/memory), instead of waiting for the next periodic report. |
+| **clear_guest_data** | Clear the guest data of third-party apps on the device (e.g. Netflix/YouTube login state and cache). The packages to be cleaned are controlled by the check-out cleaning whitelist configured on the `Client Information` page (see `Check-Out Cleaning Whitelist`). |
+| **get_telemetry** | Ask the device to immediately report its current running status (CPU/memory usage). |
 | **get_logs** | Ask the device to return its log text (up to 100KB). The returned content can be viewed in the command history. |
 
-> **Note**: commands are only delivered to devices that declare the corresponding capability. Devices that have not reported capabilities will not receive the new generation commands.
+> **Note**: each operation is only available on devices that support the corresponding function.
 
 ### Manual Batch Cleaning
 

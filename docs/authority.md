@@ -28,7 +28,7 @@ Press `Add` button to create the manager role
 
 <font color="red">**Remarks**</font>: In `Remark`, the administrator fills in the information that needs to be remarked for that role.
 
-> **Note**: Manager passwords are stored with the BCrypt algorithm (with a smooth dual-hash transition). The default factory password `123456` is used for first login; it is strongly recommended to change the password after the first login.
+> **Note**: The default factory password is `123456` for the first login. It is strongly recommended to change the password after the first login.
 
 ## Manager
 
