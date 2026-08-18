@@ -54,9 +54,17 @@ Administrators can create new `movie` by clicking on the `Add` button.
 
 10. <font color="red">**Tag**</font>: The `Tag` is used to indicate whether the movie belongs to Hot Movies or not, when it is indicated as a Hot Movie, the movie will appear in the Hot Category and be displayed at the top of the VOD page.
 
-12. <font color="red">**Off Sale**</font>: The `Off Sale` to setup the movie offline from app
+11. <font color="red">**Off Sale**</font>: The `Off Sale` to setup the movie offline from app
 
 12. <font color="red">**Introduction**</font>: This `Introduction` Used to introduce movie details
+
+13. <font color="red">**HD**</font>: In `HD`, mark the movie as an HD movie. HD movies are labelled on the terminal so that guests can distinguish them from regular movies.
+
+14. <font color="red">**Adult**</font>: In `Adult`, mark the movie as adult content. When enabled, the terminal requires the guest to confirm the `Adult Prompt` message before playing, and an age-verification prompt is shown in the movie details.
+
+15. <font color="red">**Adult Prompt**</font>: In `Adult Prompt`, enter the confirmation message displayed to the guest before playing an adult movie (e.g. "This content is for adults only"). This field is only available when `Adult` is enabled.
+
+> **Note**: The background preview player has been upgraded to an HTML5 player, so movie previews can be played directly in the browser without a third-party player plugin.
 
 ## VOD Upload
 

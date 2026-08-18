@@ -24,9 +24,11 @@ Press `Add` button to create the manager role
 
 <font color="red">**Description**</font>: In `Description`, the administrator sets the corresponding administrative role description information, which is used to describe what permissions the role has.
 
-<font color="red">**Authority**</font>: In `Authority`, the administrator needs to check the permissions that this administrative role has. Permissions can be divided up into View/Add/Edit/Delete
+<font color="red">**Authority**</font>: In `Authority`, the administrator needs to check the permissions that this administrative role has. Permissions can be divided up into View/Add/Edit/Delete. The permission list also covers the new modules of v2.0.9, including **device commands** (e.g. remote reboot, log retrieval, guest data cleaning) and **template operations**, so the administrator can grant fine-grained access to each module.
 
 <font color="red">**Remarks**</font>: In `Remark`, the administrator fills in the information that needs to be remarked for that role.
+
+> **Note**: The default factory password is `123456` for the first login. It is strongly recommended to change the password after the first login.
 
 ## Manager
 

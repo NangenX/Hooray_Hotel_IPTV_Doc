@@ -26,7 +26,7 @@ Cliquez sur `Add` pour créer un sous-titre défilant.
 
 <font color="red">**Date**</font> : définir la date de début et de fin.
 
-<font color="red">**Time**</font> : définir l'heure de début et de fin.
+<font color="red">**Time**</font> : définir l'heure de début et de fin. L'heure prend en charge le passage de minuit (ex. `22:00` - `06:00`) et utilise le format 24 heures.
 
 ## Email
 
@@ -77,7 +77,7 @@ Cliquez sur `Add` pour téléverser un média.
 
 ![Advertisement-Ads Materia-Add ](_images/ads/ads_9.png)
 
-<font color="red">**Upload**</font> : sélectionner l'image ou la vidéo à importer.
+<font color="red">**Upload**</font> : sélectionner l'image ou la vidéo à importer. Les fichiers volumineux sont téléchargés par fragments (téléchargement reprenable), de sorte qu'un téléchargement interrompu peut continuer au lieu de redémarrer.
 
 <font color="red">**Material Name**</font> : nommer le média pour le retrouver ensuite.
 
@@ -123,7 +123,7 @@ Après `Add` ou `Edit`, renseignez les champs requis.
 
 <font color="red">**Material List**</font> : sélectionner les médias à diffuser.
 
-<font color="red">**Date**</font> / <font color="red">**Time**</font> : définir la fenêtre de diffusion.
+<font color="red">**Date**</font> / <font color="red">**Time**</font> : définir la fenêtre de diffusion. L'heure prend en charge le passage de minuit (ex. `22:00` - `06:00`) et utilise le format 24 heures.
 
 <font color="red">**Publish**</font> : activer l'envoi selon les dates/horaires définis.
 
@@ -143,7 +143,7 @@ Après `Add` ou `Edit`, renseignez les champs requis.
 
 <font color="red">**Material**</font> : cocher les médias utilisés.
 
-<font color="red">**Date**</font> / <font color="red">**Time**</font> : fenêtre de diffusion.
+<font color="red">**Date**</font> / <font color="red">**Time**</font> : fenêtre de diffusion. L'heure prend en charge le passage de minuit (ex. `22:00` - `06:00`) et utilise le format 24 heures.
 
 <font color="red">**Publish**</font> : activer l'envoi avec la fenêtre définie.
 
@@ -173,7 +173,7 @@ Après `Add` ou `Edit`, renseignez les champs requis.
 
 <font color="red">**Images show time**</font> : durée d'affichage de chaque image (en secondes).
 
-<font color="red">**Date**</font> / <font color="red">**Time**</font> : fenêtre de diffusion.
+<font color="red">**Date**</font> / <font color="red">**Time**</font> : fenêtre de diffusion. L'heure prend en charge le passage de minuit (ex. `22:00` - `06:00`) et utilise le format 24 heures.
 
 <font color="red">**Publish**</font> : activer l'envoi avec la fenêtre définie.
 
@@ -187,15 +187,15 @@ Après `Add` ou `Edit`, renseignez les champs requis.
 
 <font color="red">**Material Type**</font> : image ou vidéo.
 
-<font color="red">**Program Setting**</font>: In `Program Setting`, In Program Setting, the administrator needs to select whether the advertisement is to be used for live or VOD.
+<font color="red">**Program Setting**</font> : dans `Program Setting`, l'administrateur doit choisir si la publicité est destinée à la TV en direct ou à la VOD.
 
-<font color="red">**Interval**</font>: In `Play Setting`, administrator can select Manual boardcast or Random boardcast, when selecting Manual boardcast, administrator needs to select the advertisement material to be played in Material selection box, if selecting Random boardcast, the terminal will automatically select the advertisement materials to be played.
+<font color="red">**Interval**</font> : dans `Play Setting`, l'administrateur peut choisir `Manual boardcast` ou `Random boardcast` ; en mode manuel, sélectionnez le matériel à diffuser dans la zone Matériel ; en mode aléatoire, le terminal sélectionne automatiquement le matériel à diffuser.
 
-<font color="red">**Material**</font>: In the `Material`, select the corresponding advertisement material by checking it.
+<font color="red">**Matériel**</font> : dans `Matériel`, cochez le matériel publicitaire correspondant.
 
-<font color="red">**Images show time**</font>: In `Image Show Time`, the administrator sets the image material show time, which is the number of seconds to show a single image, and if there are multiple images, each image will be shown for the same amount of time.
+<font color="red">**Images show time**</font> : dans `Image Show Time`, l'administrateur définit la durée d'affichage d'une image en secondes ; si plusieurs images sont sélectionnées, chacune est affichée pendant la même durée.
 
-<font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
+<font color="red">**Date**</font> : dans `Date`, l'administrateur peut préciser la date de début et de fin de la publicité.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement.
-<font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
+<font color="red">**Time**</font> : dans `Time`, l'administrateur peut préciser l'heure de début et de fin de la publicité. L'heure prend en charge le passage de minuit (ex. `22:00` - `06:00`) et utilise le format 24 heures.
+<font color="red">**Publish**</font> : après avoir coché `Publish`, la publicité commencera à être envoyée ; si `Date` et `Time` ont été définies, la publicité sera traitée selon celles-ci.

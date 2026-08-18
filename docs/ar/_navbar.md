@@ -1,6 +1,5 @@
 - Translations
   - [:uk: English](/)
-  - [:cn: 简体中文](/zh-cn/)
   - [:fr: France](/fr-fr/)
   - [:es: Español](/es/)
   - [:ru: Русский](/ru-ru/)

@@ -44,6 +44,14 @@ En `Setting`, el administrador configura la información básica que debe sincro
 
 <font color="red">**Enable Remote Assistance**</font>: Esta función está actualmente obsoleta.
 
+<font color="red">**Protocolo**</font>: En `Protocolo`, seleccione el protocolo de transmisión en vivo utilizado por los dispositivos terminales (p. ej. `http`, `udp`, `rtsp`).
+
+<font color="red">**Número de operador**</font>: En `Número de operador`, introduzca el número de operador único necesario para el mantenimiento del sistema y el soporte técnico. **Una vez rellenado, no se puede modificar.**
+
+<font color="red">**PMS**</font>: En `PMS`, seleccione el modo de integración del PMS (Sistema de Gestión de Propiedades):
+- `Ninguno`: la integración con el PMS está desactivada.
+- Cuando se selecciona un tipo de PMS, rellene la `Información del servidor PMS` (la dirección del servidor PMS). El sistema IPTV se integrará con el PMS (p. ej. para la entrada/salida automática de huéspedes y la sincronización de facturas). El conmutador, la dirección y el puerto del PMS los configura el administrador.
+
 ## Version
 
 >Introducción
@@ -53,3 +61,38 @@ En `Setting`, el administrador configura la información básica que debe sincro
 En `APK Version Management`, los administradores pueden configurar políticas de actualización para diferentes terminales, admitiendo métodos de actualización tanto obligatorios como no obligatorios.
 
 Presione el botón `APK Upgrade` para cargar el apk. Después de hacer clic en el botón `APK upgrade`, aparecerá una página de carga. Después de seleccionar el archivo APK que se va a actualizar, el sistema procesará automáticamente la información de la versión del archivo y la mostrará en la lista de actualización. El administrador necesita verificar si es correcta.
+
+## Configuración de medios de transmisión
+
+> Introducción
+
+![Configuración de medios de transmisión](_images/setting/streaming_1.png ':size=80%')
+
+<!-- 📷 Captura pendiente: página de configuración de medios de transmisión -->
+
+En `Configuración de medios de transmisión`, el administrador configura las direcciones del servidor de medios de transmisión y del servidor de time-shift (TV en diferido), que utilizan los dispositivos terminales para reproducir transmisiones en vivo y programas en diferido.
+
+<font color="red">**IP de medios de transmisión**</font>: En `IP de medios de transmisión`, introduzca la dirección IP del servidor de medios de transmisión.
+
+<font color="red">**Puerto de medios de transmisión**</font>: En `Puerto de medios de transmisión`, introduzca el puerto del servidor de medios de transmisión.
+
+<font color="red">**IP del servidor Time-shift**</font>: En `IP del servidor Time-shift`, introduzca la dirección IP del servidor de time-shift.
+
+<font color="red">**Puerto del servidor Time-shift**</font>: En `Puerto del servidor Time-shift`, introduzca el puerto del servidor de time-shift.
+
+<font color="red">**Horas de Time-shift**</font>: En `Horas de Time-shift`, establezca cuántas horas de programas conserva el servidor de time-shift, lo que permite a los huéspedes ver programas anteriores dentro de esta ventana.
+
+## Gráficos de datos
+
+> Introducción
+
+![Gráficos de datos](_images/setting/charts_1.png ':size=80%')
+
+<!-- 📷 Captura pendiente: página de estadísticas de datos -->
+
+En `Gráficos de datos`, los administradores pueden ver las estadísticas de funcionamiento del sistema IPTV, incluyendo:
+
+- **Estadísticas de facturación**: las estadísticas totales de ingresos del negocio.
+- **Estadísticas de VOD**: estadísticas de las reproducciones de video bajo demanda.
+- **Tipo de consumo**: estadísticas agrupadas por tipo de consumo.
+- Gráficos de barras mensuales y gráficos circulares, filtrables por año.

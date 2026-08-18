@@ -44,6 +44,14 @@ In `Setting`, the administrator configures the basic information that needs to b
 
 <font color="red">**Enable Remote Assistance**</font>: This feature is currently deprecated.
 
+<font color="red">**Protocol**</font>: In `Protocol`, select the live streaming protocol used by the terminal devices (e.g. `http`, `udp`, `rtsp`).
+
+<font color="red">**Operator Number**</font>: In `Operator Number`, enter the unique operator number required for system maintenance and technical support. **Once filled in, it cannot be modified.**
+
+<font color="red">**PMS**</font>: In `PMS`, select the PMS (Property Management System) integration mode:
+- `None`: PMS integration is disabled.
+- When a PMS type is selected, fill in the `PMS Server Info` (the PMS server address). The IPTV system will integrate with the PMS (e.g. for automatic check-in/check-out and bill synchronization). The switch, address and port of the PMS are configured by the administrator.
+
 ## Version
 
 >Introduction
@@ -53,3 +61,40 @@ In `Setting`, the administrator configures the basic information that needs to b
 In APK Version Management. Administrators can configure upgrade policies for different terminals, supporting both mandatory and non-mandatory upgrade methods.
 
 Press `APK Upgrade` button will upload the apk, After clicking the APK upgrade button, an upload page will pop up. After selecting the APK file to be upgraded, the system will automatically process the file version information and display it in the upgrade list. The administrator needs to check if it is correct.
+
+> **Note**: The APK upload supports chunked (resumable) upload with progress display, so large APK files can be uploaded reliably even on unstable networks; an interrupted upload can continue instead of restarting.
+
+## Streaming Media Setting
+
+> Introduction
+
+![Streaming Media Setting](_images/setting/streaming_1.png ':size=80%')
+
+<!-- 📷 截图待补充：流媒体设置页面 -->
+
+In `Streaming Media Setting`, the administrator configures the streaming media server and timeshift (time-shifted TV) server addresses, which are used by the terminal devices to play live streams and time-shifted programs.
+
+<font color="red">**Streaming Media IP**</font>: In `Streaming Media IP`, enter the IP address of the streaming media server.
+
+<font color="red">**Streaming Media Port**</font>: In `Streaming Media Port`, enter the port of the streaming media server.
+
+<font color="red">**Timeshift Server IP**</font>: In `Timeshift Server IP`, enter the IP address of the timeshift server.
+
+<font color="red">**Timeshift Server Port**</font>: In `Timeshift Server Port`, enter the port of the timeshift server.
+
+<font color="red">**Timeshift Hours**</font>: In `Timeshift Hours`, set how many hours of programs the timeshift server keeps, allowing guests to watch back programs within this window.
+
+## Data Charts
+
+> Introduction
+
+![Data Charts](_images/setting/charts_1.png ':size=80%')
+
+<!-- 📷 截图待补充：数据统计页面 -->
+
+In `Data Charts`, administrators can view the operating statistics of the IPTV system, including:
+
+- **Turnover Statistics**: the total business revenue statistics.
+- **VOD Statistics**: statistics of the video-on-demand plays.
+- **Consumption Type**: statistics grouped by consumption type.
+- Monthly bar charts and pie charts, filterable by year.

@@ -65,3 +65,59 @@ Permet d'enregistrer les arrivées/départs. Pour un appareil non check-in, on v
 ![Client Status Check-In Status](_images/client/client_9.png)
 
 <font color="red">**Check-In**</font> : enregistrer l'invité (nom et message de bienvenue affiché sur l'écran).
+
+## Gestion des appareils
+
+> Introduction
+
+![Gestion des appareils](_images/client/client_10.png ':size=80%')
+
+<!-- 📷 Capture à compléter : vue de gestion des appareils dans Informations client -->
+
+Dans `Informations client`, la liste des appareils est enrichie de capacités de gestion à distance. Lorsqu'un décodeur signale son état, l'administrateur peut opérer l'appareil à distance sans entrer dans la chambre, ce qui réduit considérablement le coût de maintenance informatique.
+
+### Télémétrie de l'appareil
+
+La liste des appareils affiche la télémétrie en temps réel signalée par chaque décodeur, notamment l'**utilisation du CPU** et l'**utilisation de la mémoire**, ce qui permet à l'administrateur de repérer rapidement les appareils présentant des problèmes de performance (ex. blocages ou forte utilisation de la mémoire).
+
+### Détail de l'appareil
+
+![Détail de l'appareil](_images/client/client_11.png ':size=80%')
+
+<!-- 📷 Capture à compléter : fenêtre de détail de l'appareil -->
+
+Cliquez sur le bouton `Détail` de l'appareil pour ouvrir le dialogue de détail, où les informations sont regroupées pour une consultation facile :
+
+- **Informations sur l'appareil** : adresse MAC, IP, nom de la chambre, catégorie de la chambre, modèle de l'appareil, etc.
+- **Fonctions prises en charge** : les fonctions à distance prises en charge par l'appareil (ex. nettoyage à distance, récupération de journaux, rapport d'état).
+- **Historique des commandes** : les dernières instructions de l'appareil (jusqu'à 10 enregistrements), avec leur état et leur résultat.
+- **Voir le journal** : ouvrir le journal de l'appareil dans un dialogue indépendant.
+
+### Commandes de l'appareil
+
+L'administrateur peut envoyer à distance les commandes suivantes à un appareil :
+
+| Commande | Description |
+|---|---|
+| **reboot** | Redémarrer le décodeur à distance. |
+| **clear_guest_data** | Effacer les données client des applications tierces sur l'appareil (ex. état de connexion et cache de Netflix/YouTube). Les paquets à nettoyer sont contrôlés par la liste blanche de nettoyage au départ configurée dans la page `Informations client` (voir `Liste blanche de nettoyage au départ`). |
+| **get_telemetry** | Demander à l'appareil de signaler immédiatement son état de fonctionnement actuel (utilisation CPU/mémoire). |
+| **get_logs** | Demander à l'appareil de renvoyer son texte de journal (jusqu'à 100 Ko). Le contenu renvoyé peut être consulté dans l'historique des commandes. |
+
+> **Remarque** : chaque opération n'est disponible que sur les appareils qui prennent en charge la fonction correspondante.
+
+### Nettoyage manuel groupé
+
+![Nettoyage manuel groupé](_images/client/client_12.png ':size=80%')
+
+<!-- 📷 Capture à compléter : entrée de nettoyage manuel groupé -->
+
+Sur la liste des appareils, l'administrateur peut sélectionner plusieurs appareils et effectuer un **nettoyage manuel groupé** (`clear_guest_data`), généralement utilisé avant l'arrivée d'un nouveau client pour protéger la confidentialité du client précédent.
+
+### Liste blanche de nettoyage au départ
+
+![Liste blanche de nettoyage au départ](_images/client/client_13.png ':size=80%')
+
+<!-- 📷 Capture à compléter : fenêtre de liste blanche de nettoyage au départ -->
+
+La liste blanche de nettoyage au départ est configurée dans la page `Informations client` : appuyez sur le bouton `Liste blanche` pour ouvrir le dialogue et saisissez les noms de paquets des applications tierces à nettoyer (séparés par des virgules, ex. `com.netflix.ninja,com.google.android.youtube`). Lorsqu'un client part (ou qu'une commande de nettoyage est déclenchée), le terminal efface localement les données de ces paquets. Laissez vide pour désactiver le nettoyage automatique au départ.

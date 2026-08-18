@@ -50,9 +50,17 @@ Ajouter/éditer/supprimer les films et lier les fichiers vidéo. Visualiser le p
 
 10. <font color="red">**Tag**</font> : marquer comme Hot Movie pour l'afficher en tête de page VOD.
 
-12. <font color="red">**Off Sale**</font> : retirer le film de la vente dans l'app.
+11. <font color="red">**Off Sale**</font> : retirer le film de la vente dans l'app.
 
-12. <font color="red">**Introduction**</font> : résumé/détails du film.
+12. <font color="red">**Introduction**</font> : résumé/détails du film.
+
+13. <font color="red">**HD**</font> : dans `HD`, marquez le film comme film haute définition. Les films HD sont étiquetés sur le terminal afin que les clients puissent les distinguer des films classiques.
+
+14. <font color="red">**Adulte**</font> : dans `Adulte`, marquez le film comme contenu pour adultes. Lorsqu'il est activé, le terminal demande au client de confirmer le message `Avertissement adulte` avant la lecture, et un avertissement de vérification de l'âge est affiché dans les détails du film.
+
+15. <font color="red">**Avertissement adulte**</font> : dans `Avertissement adulte`, saisissez le message de confirmation affiché au client avant la lecture d'un film pour adultes (ex. « Ce contenu est réservé aux adultes »). Ce champ n'est disponible que lorsque `Adulte` est activé.
+
+> **Remarque** : le lecteur d'aperçu du fond a été mis à niveau vers un lecteur HTML5, de sorte que les aperçus de films peuvent être lus directement dans le navigateur sans plugin de lecteur tiers.
 
 ## VOD Upload
 
