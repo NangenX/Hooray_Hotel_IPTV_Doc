@@ -2,6 +2,10 @@
 
   - [Démarrage rapide](/fr-fr/quickstart.md)
 
+- Libre-service invité
+
+  - [H5 invité](/fr-fr/guest_h5.md)
+
 - Configuration de gestion des clients
 
   - [Gestion des clients](/fr-fr/client_manage.md)  
@@ -13,6 +17,7 @@
 - Paramètres des annonces
 
   - [Paramètres des annonces](/fr-fr/ads_setting.md)
+  - [Paramètres des messages push](/fr-fr/message.md)
 - Paramètres du service hôtelier
 
   - [Paramètres du service hôtelier](/fr-fr/hotel_service.md)
@@ -32,6 +37,14 @@
 - Paramètres des installations
 
   - [Paramètres des installations](/fr-fr/facilities.md)  
+
+- Paramètres des modèles
+
+  - [Paramètres des modèles](/fr-fr/template.md)
+
+- Paramètres de licence
+
+  - [Paramètres de licence](/fr-fr/license.md)
 
 - Paramètres des autorisations
 

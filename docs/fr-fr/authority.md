@@ -24,7 +24,7 @@ Cliquez sur `Add` pour créer un rôle.
 
 <font color="red">**Description**</font> : description des permissions associées.
 
-<font color="red">**Authority**</font> : cocher les droits View/Add/Edit/Delete pour ce rôle.
+<font color="red">**Authority**</font> : cocher les droits View/Add/Edit/Delete pour ce rôle. La liste des droits couvre également les nouveaux modules de v2.0.9, notamment les **commandes d'appareil** (ex. redémarrage à distance, récupération de journaux, nettoyage des données invité) et les **opérations de modèles**, ce qui permet à l'administrateur d'accorder un accès fin à chaque module.
 
 <font color="red">**Remarks**</font> : notes complémentaires sur le rôle.
 
@@ -47,3 +47,5 @@ Cliquez sur `Add` pour créer un compte.
 <font color="red">**Manager Role**</font> : rôle attribué au compte (sélection dans la liste des rôles créés).
 
 <font color="red">**Remarks**</font> : notes complémentaires sur le compte.
+
+> **Remarque** : les mots de passe des administrateurs sont stockés avec l'algorithme BCrypt (avec une transition fluide à double hachage). Le mot de passe d'usine par défaut `123456` est utilisé pour la première connexion ; il est fortement recommandé de le changer après la première connexion.
