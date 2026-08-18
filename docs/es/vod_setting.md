@@ -58,6 +58,14 @@ Los administradores pueden crear una nueva `movie` haciendo clic en el botón `A
 
 12. <font color="red">**Introduction**</font>: La `Introduction` se utiliza para describir los detalles de la película.
 
+13. <font color="red">**HD**</font>: En `HD`, marque la película como película en alta definición. Las películas HD se etiquetan en el terminal para que los huéspedes puedan distinguirlas de las películas normales.
+
+14. <font color="red">**Adultos**</font>: En `Adultos`, marque la película como contenido para adultos. Al activarlo, el terminal exige al huésped que confirme el mensaje `Aviso para adultos` antes de reproducir, y se muestra un aviso de verificación de edad en los detalles de la película.
+
+15. <font color="red">**Aviso para adultos**</font>: En `Aviso para adultos`, introduzca el mensaje de confirmación que se muestra al huésped antes de reproducir una película para adultos (p. ej. "Este contenido es solo para adultos"). Este campo solo está disponible cuando `Adultos` está activado.
+
+> **Nota**: el reproductor de vista previa del fondo se ha actualizado a un reproductor HTML5, por lo que las vistas previas de las películas pueden reproducirse directamente en el navegador sin un plugin de reproductor de terceros.
+
 ## VOD Upload
 
 >Introducción

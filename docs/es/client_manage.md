@@ -66,3 +66,59 @@ En la página Estado de Cliente, el administrador puede operar el check-in y che
 ![Estado de Cliente - Estado de Check-In](_images/client/client_9.png)
 
 <font color="red">**Check-In**</font>: Haga clic en el botón `Check-In`, el administrador necesita rellenar el nombre del cliente que realiza check-in y el mensaje de bienvenida que se muestra en la pantalla grande.
+
+## Gestión de dispositivos
+
+> Introducción
+
+![Gestión de dispositivos](_images/client/client_10.png ':size=80%')
+
+<!-- 📷 Captura pendiente: vista de gestión de dispositivos en Información del cliente -->
+
+En `Información del cliente`, la lista de dispositivos incorpora capacidades de gestión de dispositivos. Cuando un decodificador informa su estado, el administrador puede operar el dispositivo de forma remota sin entrar en la habitación, lo que reduce en gran medida el coste de mantenimiento informático.
+
+### Telemetría del dispositivo
+
+La lista de dispositivos muestra la telemetría en tiempo real reportada por cada decodificador, incluido el **uso de CPU** y el **uso de memoria**, de modo que el administrador pueda detectar rápidamente los dispositivos con problemas de rendimiento (p. ej. bloqueos o uso elevado de memoria).
+
+### Detalle del dispositivo
+
+![Detalle del dispositivo](_images/client/client_11.png ':size=80%')
+
+<!-- 📷 Captura pendiente: ventana de detalle del dispositivo -->
+
+Haga clic en el botón `Detalle` del dispositivo para abrir el diálogo de detalle, donde la información se agrupa para facilitar su consulta:
+
+- **Información del dispositivo**: dirección MAC, IP, nombre de habitación, categoría de habitación, modelo del dispositivo, etc.
+- **Capacidades**: las capacidades de comando declaradas por el dispositivo (p. ej. si soporta `clear_guest_data`, `get_logs`, `get_telemetry`).
+- **Historial de comandos**: las últimas instrucciones del dispositivo (hasta 10 registros), con su estado y resultado.
+- **Ver registro**: abrir el registro del dispositivo en un diálogo independiente.
+
+### Comandos del dispositivo
+
+El administrador puede enviar de forma remota los siguientes comandos a un dispositivo:
+
+| Comando | Descripción |
+|---|---|
+| **reboot** | Reiniciar el decodificador de forma remota. |
+| **clear_guest_data** | Borrar los datos de huésped de las aplicaciones de terceros del dispositivo (p. ej. estado de inicio de sesión y caché de Netflix/YouTube). Los paquetes a limpiar se controlan mediante la lista blanca de limpieza al hacer check-out configurada en la página `Información del cliente` (véase `Lista blanca de limpieza al check-out`). |
+| **get_telemetry** | Pedir al dispositivo que informe inmediatamente una ronda completa de telemetría (CPU/memoria), en lugar de esperar al siguiente informe periódico. |
+| **get_logs** | Pedir al dispositivo que devuelva su texto de registro (hasta 100KB). El contenido devuelto puede consultarse en el historial de comandos. |
+
+> **Nota**: los comandos solo se entregan a los dispositivos que declaran la capacidad correspondiente. Los dispositivos que no han reportado capacidades no recibirán los comandos de nueva generación.
+
+### Limpieza masiva manual
+
+![Limpieza masiva manual](_images/client/client_12.png ':size=80%')
+
+<!-- 📷 Captura pendiente: entrada de limpieza masiva manual -->
+
+En la lista de dispositivos, el administrador puede seleccionar varios dispositivos y realizar una **limpieza masiva manual** (`clear_guest_data`), que se suele utilizar antes de que un nuevo huésped se registre para proteger la privacidad del huésped anterior.
+
+### Lista blanca de limpieza al check-out
+
+![Lista blanca de limpieza al check-out](_images/client/client_13.png ':size=80%')
+
+<!-- 📷 Captura pendiente: ventana de lista blanca de limpieza al check-out -->
+
+La lista blanca de limpieza al check-out se configura en la página `Información del cliente`: pulse el botón `Lista blanca` para abrir el diálogo e introduzca los nombres de paquete de las aplicaciones de terceros a limpiar (separados por comas, p. ej. `com.netflix.ninja,com.google.android.youtube`). Cuando un huésped hace check-out (o se activa un comando de limpieza), el terminal borrará los datos de estos paquetes localmente. Déjelo vacío para desactivar la limpieza automática al check-out.

@@ -24,7 +24,7 @@ Presione el botón `Add` para crear el rol de gerente
 
 <font color="red">**Description**</font>: En `Description`, el administrador establece la información de descripción del rol administrativo correspondiente, que se utiliza para describir qué permisos tiene el rol.
 
-<font color="red">**Authority**</font>: En `Authority`, el administrador necesita marcar los permisos que tiene este rol administrativo. Los permisos se pueden dividir en Ver/Agregar/Editar/Eliminar
+<font color="red">**Authority**</font>: En `Authority`, el administrador necesita marcar los permisos que tiene este rol administrativo. Los permisos se pueden dividir en Ver/Agregar/Editar/Eliminar. La lista de permisos también cubre los nuevos módulos de v2.0.9, incluidos los **comandos de dispositivo** (p. ej. reinicio remoto, recuperación de registros, limpieza de datos de huéspedes) y las **operaciones de plantillas**, de modo que el administrador puede conceder acceso granular a cada módulo.
 
 <font color="red">**Remarks**</font>: En `Remarks`, el administrador rellena la información que necesita ser anotada para ese rol.
 
@@ -47,3 +47,5 @@ Presione el botón `Add` para crear la cuenta de gerente
 <font color="red">**Manager Role**</font>: En `Manager Role`, el administrador abre la lista desplegable para seleccionar el rol de gestión creado, y la clasificación corresponde al rol asignado a esa cuenta de administrador.
 
 <font color="red">**Remarks**</font>: En `Remarks`, el administrador rellena la información que necesita ser anotada para esa cuenta.
+
+> **Nota**: las contraseñas de los administradores se almacenan con el algoritmo BCrypt (con una transición dual de hash fluida). La contraseña de fábrica por defecto `123456` se utiliza para el primer inicio de sesión; se recomienda encarecidamente cambiarla después del primer inicio de sesión.

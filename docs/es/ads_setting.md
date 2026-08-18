@@ -26,7 +26,7 @@ Presione el botón `Add` para crear `Rolling Subtitles`.
 
 <font color="red">**Date**</font>: En `Date`, el administrador puede especificar la fecha de inicio y fin del subtítulo rodante.
 
-<font color="red">**Time**</font>: En `Time`, el administrador puede especificar la hora de inicio y fin.
+<font color="red">**Time**</font>: En `Time`, el administrador puede especificar la hora de inicio y fin. La hora admite cruzar la medianoche (p. ej. `22:00` - `06:00`) y utiliza el formato de 24 horas.
 
 ## Correo electrónico
 
@@ -79,7 +79,7 @@ Presione `Add` para subir material a la lista.
 
 ![Advertisement-Ads Materia-Add ](_images/ads/ads_9.png)
 
-<font color="red">**Upload**</font>: Haga clic en el botón `Upload` para seleccionar la imagen o video a subir; el sistema cargará automáticamente el material.
+<font color="red">**Upload**</font>: Haga clic en el botón `Upload` para seleccionar la imagen o video a subir; el sistema cargará automáticamente el material. Los archivos grandes se cargan por fragmentos (carga reanudable), por lo que una carga interrumpida puede continuar en lugar de reiniciarse.
 
 <font color="red">**Material Name**</font>: Etiquete el `Material Name` con el nombre del material subido, se usará en selecciones posteriores.
 
@@ -129,7 +129,7 @@ Tras pulsar `Add` o `Edit`, el administrador entra en la página de creación/ed
 
 <font color="red">**Date**</font>: En `Date`, especifique fecha de inicio y fin del anuncio.
 
-<font color="red">**Time**</font>: En `Time`, especifique hora de inicio y fin.
+<font color="red">**Time**</font>: En `Time`, especifique hora de inicio y fin. La hora admite cruzar la medianoche (p. ej. `22:00` - `06:00`) y utiliza el formato de 24 horas.
 
 <font color="red">**Publish**</font>: Al marcar `Publish`, el anuncio empezará a enviarse; si Date y Time están configurados, se procesará según ellos.
 
@@ -152,7 +152,7 @@ Tras pulsar `Add` o `Edit`, el administrador entra en la página de creación/ed
 
 <font color="red">**Date**</font>: Especifique la fecha de inicio y fin.
 
-<font color="red">**Time**</font>: Especifique la hora de inicio y fin.
+<font color="red">**Time**</font>: Especifique la hora de inicio y fin. La hora admite cruzar la medianoche (p. ej. `22:00` - `06:00`) y utiliza el formato de 24 horas.
 
 <font color="red">**Publish**</font>: Marque `Publish` para activar el anuncio.
 
@@ -184,7 +184,7 @@ Tras pulsar `Add` o `Edit`, el administrador entra en la página de creación/ed
 
 <font color="red">**Date**</font>: Fecha de inicio y fin.
 
-<font color="red">**Time**</font>: Hora de inicio y fin.
+<font color="red">**Time**</font>: Hora de inicio y fin. La hora admite cruzar la medianoche (p. ej. `22:00` - `06:00`) y utiliza el formato de 24 horas.
 
 <font color="red">**Publish**</font>: Marque `Publish` para activar.
 
@@ -208,7 +208,7 @@ Tras pulsar `Add` o `Edit`, el administrador entra en la página de creación/ed
 
 <font color="red">**Date**</font>: Fecha de inicio y fin.
 
-<font color="red">**Time**</font>: Hora de inicio y fin.
+<font color="red">**Time**</font>: Hora de inicio y fin. La hora admite cruzar la medianoche (p. ej. `22:00` - `06:00`) y utiliza el formato de 24 horas.
 
 <font color="red">**Publish**</font>: Marque `Publish` para activar el anuncio según la configuración de fecha y hora.
 

@@ -2,6 +2,10 @@
 
   - [Inicio rápido](/es/quickstart.md)
 
+- Autoservicio del huésped
+
+  - [H5 del huésped](/es/guest_h5.md)
+
 - Configuración de gestión de clientes
 
   - [Gestionar cliente](/es/client_manage.md)  
@@ -14,6 +18,7 @@
 - Configuración de anuncios
 
   - [Configuración de anuncios](/es/ads_setting.md)
+  - [Configuración de mensajes push](/es/message.md)
 
 - Configuración del servicio del hotel
 
@@ -36,6 +41,14 @@
 - Configuración de instalaciones
 
   - [Configuración de instalaciones](/es/facilities.md)  
+
+- Configuración de plantillas
+
+  - [Configuración de plantillas](/es/template.md)
+
+- Configuración de licencia
+
+  - [Configuración de licencia](/es/license.md)
 
 - Configuración de autoridad
 
