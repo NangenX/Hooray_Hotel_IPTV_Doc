@@ -53,3 +53,38 @@ In `Setting`, the administrator configures the basic information that needs to b
 In APK Version Management. Administrators can configure upgrade policies for different terminals, supporting both mandatory and non-mandatory upgrade methods.
 
 Press `APK Upgrade` button will upload the apk, After clicking the APK upgrade button, an upload page will pop up. After selecting the APK file to be upgraded, the system will automatically process the file version information and display it in the upgrade list. The administrator needs to check if it is correct.
+
+## Streaming Media Setting
+
+> Introduction
+
+![Streaming Media Setting](_images/setting/streaming_1.png ':size=80%')
+
+<!-- 📷 截图待补充：流媒体设置页面 -->
+
+In `Streaming Media Setting`, the administrator configures the streaming media server and timeshift (time-shifted TV) server addresses, which are used by the terminal devices to play live streams and time-shifted programs.
+
+<font color="red">**Streaming Media IP**</font>: In `Streaming Media IP`, enter the IP address of the streaming media server.
+
+<font color="red">**Streaming Media Port**</font>: In `Streaming Media Port`, enter the port of the streaming media server.
+
+<font color="red">**Timeshift Server IP**</font>: In `Timeshift Server IP`, enter the IP address of the timeshift server.
+
+<font color="red">**Timeshift Server Port**</font>: In `Timeshift Server Port`, enter the port of the timeshift server.
+
+<font color="red">**Timeshift Hours**</font>: In `Timeshift Hours`, set how many hours of programs the timeshift server keeps, allowing guests to watch back programs within this window.
+
+## Data Charts
+
+> Introduction
+
+![Data Charts](_images/setting/charts_1.png ':size=80%')
+
+<!-- 📷 截图待补充：数据统计页面 -->
+
+In `Data Charts`, administrators can view the operating statistics of the IPTV system, including:
+
+- **Turnover Statistics**: the total business revenue statistics.
+- **VOD Statistics**: statistics of the video-on-demand plays.
+- **Consumption Type**: statistics grouped by consumption type.
+- Monthly bar charts and pie charts, filterable by year.

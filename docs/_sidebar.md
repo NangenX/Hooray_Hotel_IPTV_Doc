@@ -2,6 +2,10 @@
 
   - [Quick start](quickstart.md)
 
+- Guest Self-Service
+
+  - [Guest H5](guest_h5.md)
+
 - Client Management Setting
 
   - [Client Manage](client_manage.md)  
@@ -37,6 +41,14 @@
 - Facilities Setting
 
   - [Facilities Setting](facilities.md)  
+
+- Template Setting
+
+  - [Template Setting](template.md)
+
+- License Setting
+
+  - [License Setting](license.md)
 
 - Authority Setting
 

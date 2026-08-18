@@ -66,3 +66,55 @@ In the Client Status page, the administrator can operate the check-in and check-
 ![Client Status Check-In Status](_images/client/client_9.png)
 
 <font color="red">**Check-In**</font> Click the `Check-In` button, the administrator needs to fill in the name of the check-in customer and the welcome message displayed on the big screen.
+
+## Device Management
+
+> Introduction
+
+![Device Management](_images/client/client_10.png ':size=80%')
+
+<!-- 📷 截图待补充：Client Information 设备管理视图 -->
+
+In `Client Information`, the device list is enhanced with device management capabilities. When a set-top box reports its status, the administrator can remotely operate the device without entering the guest room, which greatly reduces the IT maintenance cost.
+
+### Device Telemetry
+
+The device list shows the real-time telemetry reported by each set-top box, including **CPU usage** and **memory usage**, so that the administrator can quickly spot devices with performance problems (e.g. stuck or high memory usage).
+
+### Device Detail
+
+![Device Detail](_images/client/client_11.png ':size=80%')
+
+<!-- 📷 截图待补充：Device Detail 弹窗 -->
+
+Click the device `Detail` button to open the device detail dialog, where the information is grouped for easy viewing:
+
+- **Device information**: MAC address, IP, room name, room category, device model, etc.
+- **Capabilities**: the command capabilities declared by the device (e.g. whether it supports `clear_guest_data`, `get_logs`, `get_telemetry`).
+- **Command history**: the latest instructions of the device (up to 10 records), with their status and results.
+- **View Log**: open the device log in an independent dialog.
+
+### Device Commands
+
+The administrator can remotely send the following commands to a device:
+
+| Command | Description |
+|---|---|
+| **reboot** | Remotely restart the set-top box. |
+| **clear_guest_data** | Clear the guest data of third-party apps on the device (e.g. Netflix/YouTube login state and cache). The packages to be cleaned are controlled by the check-out cleaning whitelist configured in `System Settings` (see `Guest Clean Packages`). |
+| **get_telemetry** | Ask the device to immediately report a full round of telemetry (CPU/memory), instead of waiting for the next periodic report. |
+| **get_logs** | Ask the device to return its log text (up to 100KB). The returned content can be viewed in the command history. |
+
+> **Note**: commands are only delivered to devices that declare the corresponding capability. Devices that have not reported capabilities will not receive the new generation commands.
+
+### Manual Batch Cleaning
+
+![Manual Batch Clean](_images/client/client_12.png ':size=80%')
+
+<!-- 📷 截图待补充：手动批量清理入口 -->
+
+On the device list, the administrator can select multiple devices and perform **manual batch cleaning** (`clear_guest_data`), which is usually used before a new guest checks in to protect the privacy of the previous guest.
+
+### Check-Out Cleaning Whitelist
+
+The check-out cleaning whitelist is configured in `System Settings` → `Setting` → `Guest Clean Packages`: enter the package names of the third-party apps to be cleaned (separated by commas). When a guest checks out (or a cleaning command is triggered), the terminal will clear the data of these packages locally. Leave it empty to disable automatic check-out cleaning.
