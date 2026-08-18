@@ -26,7 +26,7 @@ Press `Add` button to create the `Rolling Subtitles`
 
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the rolling subtitle.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the rolling subtitle.
+<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the rolling subtitle. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
 ## Email 
 
@@ -80,7 +80,7 @@ Press `Add` button to upload the material to the list.
 
 ![Advertisement-Ads Materia-Add ](_images/ads/ads_9.png)
 
-<font color="red">**Upload**</font> Click the `Upload button1`, the administrator selects the image or video material that needs to be uploaded, and the system will automatically upload the selected material into the system.
+<font color="red">**Upload**</font> Click the `Upload button1`, the administrator selects the image or video material that needs to be uploaded, and the system will automatically upload the selected material into the system. Large files are uploaded in chunks (resumable upload), so an interrupted upload can continue instead of restarting.
 
 <font color="red">**Material Name**</font> Label the `Material Name` with the name of the uploaded material, which will be used in subsequent material selections.
 
@@ -130,7 +130,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement.
+<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
 <font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
@@ -153,7 +153,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement.
+<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
 <font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
@@ -185,7 +185,7 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement.
+<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 
 <font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.
 
@@ -209,5 +209,5 @@ After clicking the `Add` or `Edit` button, the administrator enters the Create o
 
 <font color="red">**Date**</font>: In `Date`, the administrator can specify the start date and end date of the advertisement.
 
-<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement.
+<font color="red">**Time**</font>: In `Time`, the administrator can specify the start time and end time of the advertisement. The time supports crossing midnight (e.g. `22:00` - `06:00`) and uses the 24-hour format.
 <font color="red">**Publish**</font>: After checking `Pulish`, the advertisement will start to send, if Date and Time have been set, then the advertisement will be processed according to the Date and Time that has been set.

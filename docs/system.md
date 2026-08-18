@@ -44,6 +44,14 @@ In `Setting`, the administrator configures the basic information that needs to b
 
 <font color="red">**Enable Remote Assistance**</font>: This feature is currently deprecated.
 
+<font color="red">**Protocol**</font>: In `Protocol`, select the live streaming protocol used by the terminal devices (e.g. `http`, `udp`, `rtsp`).
+
+<font color="red">**Operator Number**</font>: In `Operator Number`, enter the unique operator number required for system maintenance and technical support. **Once filled in, it cannot be modified.**
+
+<font color="red">**PMS**</font>: In `PMS`, select the PMS (Property Management System) integration mode:
+- `None`: PMS integration is disabled.
+- When a PMS type is selected, fill in the `PMS Server Info` (the PMS server address). The IPTV system will integrate with the PMS (e.g. for automatic check-in/check-out and bill synchronization). The switch, address and port of the PMS are configured by the administrator.
+
 ## Version
 
 >Introduction
@@ -53,6 +61,8 @@ In `Setting`, the administrator configures the basic information that needs to b
 In APK Version Management. Administrators can configure upgrade policies for different terminals, supporting both mandatory and non-mandatory upgrade methods.
 
 Press `APK Upgrade` button will upload the apk, After clicking the APK upgrade button, an upload page will pop up. After selecting the APK file to be upgraded, the system will automatically process the file version information and display it in the upgrade list. The administrator needs to check if it is correct.
+
+> **Note**: The APK upload supports chunked (resumable) upload with progress display, so large APK files can be uploaded reliably even on unstable networks; an interrupted upload can continue instead of restarting.
 
 ## Streaming Media Setting
 

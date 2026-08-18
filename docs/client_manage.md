@@ -117,4 +117,8 @@ On the device list, the administrator can select multiple devices and perform **
 
 ### Check-Out Cleaning Whitelist
 
-The check-out cleaning whitelist is configured in `System Settings` → `Setting` → `Guest Clean Packages`: enter the package names of the third-party apps to be cleaned (separated by commas). When a guest checks out (or a cleaning command is triggered), the terminal will clear the data of these packages locally. Leave it empty to disable automatic check-out cleaning.
+![Check-Out Cleaning Whitelist](_images/client/client_13.png ':size=80%')
+
+<!-- 📷 截图待补充：退房清理白名单弹窗 -->
+
+The check-out cleaning whitelist is configured on the `Client Information` page: press the `Whitelist` button to open the whitelist dialog, and enter the package names of the third-party apps to be cleaned (separated by commas, e.g. `com.netflix.ninja,com.google.android.youtube`). When a guest checks out (or a cleaning command is triggered), the terminal will clear the data of these packages locally. Leave it empty to disable automatic check-out cleaning.
