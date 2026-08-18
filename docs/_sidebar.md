@@ -14,6 +14,7 @@
 - Ads Settings
 
   - [Ads Setting](ads_setting.md)
+  - [Push Message Setting](message.md)
 
 - Hotel Service Setting
 
